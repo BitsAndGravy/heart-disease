@@ -1,0 +1,919 @@
+age,sex,pain_type,systolic_bp,cholesterol,fbs,ekg,max_hr,stress_test,ST_depression,ST_slope,heart_disease_category,expected_max_hr,hr_difference
+40,male,atypical,140.0,289.0,normal,normal,172,no angina,0.0,upsloping,normal,180,-8
+49,female,non-anginal,160.0,180.0,normal,normal,156,no angina,1.0,flat,heart disease,171,-15
+37,male,atypical,130.0,283.0,normal,ST abnormality,98,no angina,0.0,upsloping,normal,183,-85
+48,female,asymptomatic,138.0,214.0,normal,normal,108,angina,1.5,flat,heart disease,172,-64
+54,male,non-anginal,150.0,195.0,normal,normal,122,no angina,0.0,upsloping,normal,166,-44
+39,male,non-anginal,120.0,339.0,normal,normal,170,no angina,0.0,upsloping,normal,181,-11
+45,female,atypical,130.0,237.0,normal,normal,170,no angina,0.0,upsloping,normal,175,-5
+54,male,atypical,110.0,208.0,normal,normal,142,no angina,0.0,upsloping,normal,166,-24
+37,male,asymptomatic,140.0,207.0,normal,normal,130,angina,1.5,flat,heart disease,183,-53
+48,female,atypical,120.0,284.0,normal,normal,120,no angina,0.0,upsloping,normal,172,-52
+37,female,non-anginal,130.0,211.0,normal,normal,142,no angina,0.0,upsloping,normal,183,-41
+58,male,atypical,136.0,164.0,normal,ST abnormality,99,angina,2.0,flat,heart disease,162,-63
+39,male,atypical,120.0,204.0,normal,normal,145,no angina,0.0,upsloping,normal,181,-36
+49,male,asymptomatic,140.0,234.0,normal,normal,140,angina,1.0,flat,heart disease,171,-31
+42,female,non-anginal,115.0,211.0,normal,ST abnormality,137,no angina,0.0,upsloping,normal,178,-41
+54,female,atypical,120.0,273.0,normal,normal,150,no angina,1.5,flat,normal,166,-16
+38,male,asymptomatic,110.0,196.0,normal,normal,166,no angina,0.0,flat,heart disease,182,-16
+43,female,atypical,120.0,201.0,normal,normal,165,no angina,0.0,upsloping,normal,177,-12
+60,male,asymptomatic,100.0,248.0,normal,normal,125,no angina,1.0,flat,heart disease,160,-35
+36,male,atypical,120.0,267.0,normal,normal,160,no angina,3.0,flat,heart disease,184,-24
+43,female,typical,100.0,223.0,normal,normal,142,no angina,0.0,upsloping,normal,177,-35
+44,male,atypical,120.0,184.0,normal,normal,142,no angina,1.0,flat,normal,176,-34
+49,female,atypical,124.0,201.0,normal,normal,164,no angina,0.0,upsloping,normal,171,-7
+44,male,atypical,150.0,288.0,normal,normal,150,angina,3.0,flat,heart disease,176,-26
+40,male,non-anginal,130.0,215.0,normal,normal,138,no angina,0.0,upsloping,normal,180,-42
+36,male,non-anginal,130.0,209.0,normal,normal,178,no angina,0.0,upsloping,normal,184,-6
+53,male,asymptomatic,124.0,260.0,normal,ST abnormality,112,angina,3.0,flat,normal,167,-55
+52,male,atypical,120.0,284.0,normal,normal,118,no angina,0.0,upsloping,normal,168,-50
+53,female,atypical,113.0,468.0,normal,normal,127,no angina,0.0,upsloping,normal,167,-40
+51,male,atypical,125.0,188.0,normal,normal,145,no angina,0.0,upsloping,normal,169,-24
+53,male,non-anginal,145.0,518.0,normal,normal,130,no angina,0.0,flat,heart disease,167,-37
+56,male,non-anginal,130.0,167.0,normal,normal,114,no angina,0.0,upsloping,normal,164,-50
+54,male,asymptomatic,125.0,224.0,normal,normal,122,no angina,2.0,flat,heart disease,166,-44
+41,male,asymptomatic,130.0,172.0,normal,ST abnormality,130,no angina,2.0,flat,heart disease,179,-49
+43,female,atypical,150.0,186.0,normal,normal,154,no angina,0.0,upsloping,normal,177,-23
+32,male,atypical,125.0,254.0,normal,normal,155,no angina,0.0,upsloping,normal,188,-33
+65,male,asymptomatic,140.0,306.0,elevated,normal,87,angina,1.5,flat,heart disease,155,-68
+41,female,atypical,110.0,250.0,normal,ST abnormality,142,no angina,0.0,upsloping,normal,179,-37
+48,female,atypical,120.0,177.0,elevated,ST abnormality,148,no angina,0.0,upsloping,normal,172,-24
+48,female,asymptomatic,150.0,227.0,normal,normal,130,angina,1.0,flat,normal,172,-42
+54,female,atypical,150.0,230.0,normal,normal,130,no angina,0.0,upsloping,normal,166,-36
+54,female,non-anginal,130.0,294.0,normal,ST abnormality,100,angina,0.0,flat,heart disease,166,-66
+35,male,atypical,150.0,264.0,normal,normal,168,no angina,0.0,upsloping,normal,185,-17
+52,male,non-anginal,140.0,259.0,normal,ST abnormality,170,no angina,0.0,upsloping,normal,168,2
+43,male,asymptomatic,120.0,175.0,normal,normal,120,angina,1.0,flat,heart disease,177,-57
+59,male,non-anginal,130.0,318.0,normal,normal,120,angina,1.0,flat,normal,161,-41
+37,male,asymptomatic,120.0,223.0,normal,normal,168,no angina,0.0,upsloping,normal,183,-15
+50,male,atypical,140.0,216.0,normal,normal,170,no angina,0.0,upsloping,normal,170,0
+36,male,non-anginal,112.0,340.0,normal,normal,184,no angina,1.0,flat,normal,184,0
+41,male,asymptomatic,110.0,289.0,normal,normal,170,no angina,0.0,flat,heart disease,179,-9
+50,male,asymptomatic,130.0,233.0,normal,normal,121,angina,2.0,flat,heart disease,170,-49
+47,female,asymptomatic,120.0,205.0,normal,normal,98,angina,2.0,flat,heart disease,173,-75
+45,male,atypical,140.0,224.0,elevated,normal,122,no angina,0.0,upsloping,normal,175,-53
+41,female,atypical,130.0,245.0,normal,normal,150,no angina,0.0,upsloping,normal,179,-29
+52,female,asymptomatic,130.0,180.0,normal,normal,140,angina,1.5,flat,normal,168,-28
+51,female,atypical,160.0,194.0,normal,normal,170,no angina,0.0,upsloping,normal,169,1
+31,male,asymptomatic,120.0,270.0,normal,normal,153,angina,1.5,flat,heart disease,189,-36
+58,male,non-anginal,130.0,213.0,normal,ST abnormality,140,no angina,0.0,flat,heart disease,162,-22
+54,male,asymptomatic,150.0,365.0,normal,ST abnormality,134,no angina,1.0,upsloping,normal,166,-32
+52,male,asymptomatic,112.0,342.0,normal,ST abnormality,96,angina,1.0,flat,heart disease,168,-72
+49,male,atypical,100.0,253.0,normal,normal,174,no angina,0.0,upsloping,normal,171,3
+43,female,non-anginal,150.0,254.0,normal,normal,175,no angina,0.0,upsloping,normal,177,-2
+45,male,asymptomatic,140.0,224.0,normal,normal,144,no angina,0.0,upsloping,normal,175,-31
+46,male,asymptomatic,120.0,277.0,normal,normal,125,angina,1.0,flat,heart disease,174,-49
+50,female,atypical,110.0,202.0,normal,normal,145,no angina,0.0,upsloping,normal,170,-25
+37,female,atypical,120.0,260.0,normal,normal,130,no angina,0.0,upsloping,normal,183,-53
+45,female,asymptomatic,132.0,297.0,normal,normal,144,no angina,0.0,upsloping,normal,175,-31
+32,male,atypical,110.0,225.0,normal,normal,184,no angina,0.0,upsloping,normal,188,-4
+52,male,asymptomatic,160.0,246.0,normal,ST abnormality,82,angina,4.0,flat,heart disease,168,-86
+44,male,asymptomatic,150.0,412.0,normal,normal,170,no angina,0.0,upsloping,normal,176,-6
+57,male,atypical,140.0,265.0,normal,ST abnormality,145,angina,1.0,flat,heart disease,163,-18
+44,male,atypical,130.0,215.0,normal,normal,135,no angina,0.0,upsloping,normal,176,-41
+52,male,asymptomatic,120.0,182.0,normal,normal,150,no angina,0.0,flat,heart disease,168,-18
+44,female,asymptomatic,120.0,218.0,normal,ST abnormality,115,no angina,0.0,upsloping,normal,176,-61
+55,male,asymptomatic,140.0,268.0,normal,normal,128,angina,1.5,flat,heart disease,165,-37
+46,male,non-anginal,150.0,163.0,normal,normal,116,no angina,0.0,upsloping,normal,174,-58
+32,male,asymptomatic,118.0,529.0,normal,normal,130,no angina,0.0,flat,heart disease,188,-58
+35,female,asymptomatic,140.0,167.0,normal,normal,150,no angina,0.0,upsloping,normal,185,-35
+52,male,atypical,140.0,100.0,normal,normal,138,angina,0.0,upsloping,normal,168,-30
+49,male,asymptomatic,130.0,206.0,normal,normal,170,no angina,0.0,flat,heart disease,171,-1
+55,male,non-anginal,110.0,277.0,normal,normal,160,no angina,0.0,upsloping,normal,165,-5
+54,male,atypical,120.0,238.0,normal,normal,154,no angina,0.0,upsloping,normal,166,-12
+63,male,asymptomatic,150.0,223.0,normal,normal,115,no angina,0.0,flat,heart disease,157,-42
+52,male,atypical,160.0,196.0,normal,normal,165,no angina,0.0,upsloping,normal,168,-3
+56,male,asymptomatic,150.0,213.0,elevated,normal,125,angina,1.0,flat,heart disease,164,-39
+66,male,asymptomatic,140.0,139.0,normal,normal,94,angina,1.0,flat,heart disease,154,-60
+65,male,asymptomatic,170.0,263.0,elevated,normal,112,angina,2.0,flat,heart disease,155,-43
+53,female,atypical,140.0,216.0,normal,normal,142,angina,2.0,flat,normal,167,-25
+43,male,typical,120.0,291.0,normal,ST abnormality,155,no angina,0.0,flat,heart disease,177,-22
+55,male,asymptomatic,140.0,229.0,normal,normal,110,angina,0.5,flat,normal,165,-55
+49,female,atypical,110.0,208.0,normal,normal,160,no angina,0.0,upsloping,normal,171,-11
+39,male,asymptomatic,130.0,307.0,normal,normal,140,no angina,0.0,upsloping,normal,181,-41
+52,female,atypical,120.0,210.0,normal,normal,148,no angina,0.0,upsloping,normal,168,-20
+48,male,asymptomatic,160.0,329.0,normal,normal,92,angina,1.5,flat,heart disease,172,-80
+39,female,non-anginal,110.0,182.0,normal,ST abnormality,180,no angina,0.0,upsloping,normal,181,-1
+58,male,asymptomatic,130.0,263.0,normal,normal,140,angina,2.0,flat,heart disease,162,-22
+43,male,atypical,142.0,207.0,normal,normal,138,no angina,0.0,upsloping,normal,177,-39
+39,male,non-anginal,160.0,147.0,elevated,normal,160,no angina,0.0,upsloping,normal,181,-21
+56,male,asymptomatic,120.0,85.0,normal,normal,140,no angina,0.0,upsloping,normal,164,-24
+41,male,atypical,125.0,269.0,normal,normal,144,no angina,0.0,upsloping,normal,179,-35
+65,male,asymptomatic,130.0,275.0,normal,ST abnormality,115,angina,1.0,flat,heart disease,155,-40
+51,male,asymptomatic,130.0,179.0,normal,normal,100,no angina,0.0,upsloping,normal,169,-69
+40,female,asymptomatic,150.0,392.0,normal,normal,130,no angina,2.0,flat,heart disease,180,-50
+40,male,asymptomatic,120.0,466.0,elevated,normal,152,angina,1.0,flat,heart disease,180,-28
+46,male,asymptomatic,118.0,186.0,normal,normal,124,no angina,0.0,flat,heart disease,174,-50
+57,male,atypical,140.0,260.0,elevated,normal,140,no angina,0.0,upsloping,normal,163,-23
+48,female,asymptomatic,120.0,254.0,normal,ST abnormality,110,no angina,0.0,upsloping,normal,172,-62
+34,male,atypical,150.0,214.0,normal,ST abnormality,168,no angina,0.0,upsloping,normal,186,-18
+50,male,asymptomatic,140.0,129.0,normal,normal,135,no angina,0.0,upsloping,normal,170,-35
+39,male,atypical,190.0,241.0,normal,normal,106,no angina,0.0,upsloping,normal,181,-75
+59,female,atypical,130.0,188.0,normal,normal,124,no angina,1.0,flat,normal,161,-37
+57,male,asymptomatic,150.0,255.0,normal,normal,92,angina,3.0,flat,heart disease,163,-71
+47,male,asymptomatic,140.0,276.0,elevated,normal,125,angina,0.0,upsloping,normal,173,-48
+38,male,atypical,140.0,297.0,normal,normal,150,no angina,0.0,upsloping,normal,182,-32
+49,female,non-anginal,130.0,207.0,normal,ST abnormality,135,no angina,0.0,upsloping,normal,171,-36
+33,female,asymptomatic,100.0,246.0,normal,normal,150,angina,1.0,flat,heart disease,187,-37
+38,male,asymptomatic,120.0,282.0,normal,normal,170,no angina,0.0,flat,heart disease,182,-12
+59,female,asymptomatic,130.0,338.0,elevated,ST abnormality,130,angina,1.5,flat,heart disease,161,-31
+35,female,typical,120.0,160.0,normal,ST abnormality,185,no angina,0.0,upsloping,normal,185,0
+34,male,typical,140.0,156.0,normal,normal,180,no angina,0.0,flat,heart disease,186,-6
+47,female,non-anginal,135.0,248.0,elevated,normal,170,no angina,0.0,flat,heart disease,173,-3
+52,female,non-anginal,125.0,272.0,normal,normal,139,no angina,0.0,upsloping,normal,168,-29
+46,male,asymptomatic,110.0,240.0,normal,ST abnormality,140,no angina,0.0,upsloping,normal,174,-34
+58,female,atypical,180.0,393.0,normal,normal,110,angina,1.0,flat,heart disease,162,-52
+58,male,atypical,130.0,230.0,normal,normal,150,no angina,0.0,upsloping,normal,162,-12
+54,male,atypical,120.0,246.0,normal,normal,110,no angina,0.0,upsloping,normal,166,-56
+34,female,atypical,130.0,161.0,normal,normal,190,no angina,0.0,upsloping,normal,186,4
+48,female,asymptomatic,108.0,163.0,normal,normal,175,no angina,2.0,upsloping,normal,172,3
+54,female,atypical,120.0,230.0,elevated,normal,140,no angina,0.0,upsloping,normal,166,-26
+42,male,non-anginal,120.0,228.0,normal,normal,152,angina,1.5,flat,normal,178,-26
+38,male,non-anginal,145.0,292.0,normal,normal,130,no angina,0.0,upsloping,normal,182,-52
+46,male,asymptomatic,110.0,202.0,normal,normal,150,angina,0.0,flat,heart disease,174,-24
+56,male,asymptomatic,170.0,388.0,normal,ST abnormality,122,angina,2.0,flat,heart disease,164,-42
+56,male,asymptomatic,150.0,230.0,normal,ST abnormality,124,angina,1.5,flat,heart disease,164,-40
+61,female,asymptomatic,130.0,294.0,normal,ST abnormality,120,angina,1.0,flat,normal,159,-39
+49,male,non-anginal,115.0,265.0,normal,normal,175,no angina,0.0,flat,heart disease,171,4
+43,female,atypical,120.0,215.0,normal,ST abnormality,175,no angina,0.0,upsloping,normal,177,-2
+39,male,atypical,120.0,241.0,normal,ST abnormality,146,no angina,2.0,upsloping,normal,181,-35
+54,male,asymptomatic,140.0,166.0,normal,normal,118,angina,0.0,flat,heart disease,166,-48
+43,male,asymptomatic,150.0,247.0,normal,normal,130,angina,2.0,flat,heart disease,177,-47
+52,male,asymptomatic,160.0,331.0,normal,normal,94,angina,2.5,flat,heart disease,168,-74
+50,male,asymptomatic,140.0,341.0,normal,ST abnormality,125,angina,2.5,flat,heart disease,170,-45
+47,male,asymptomatic,160.0,291.0,normal,ST abnormality,158,angina,3.0,flat,heart disease,173,-15
+53,male,asymptomatic,140.0,243.0,normal,normal,155,no angina,0.0,upsloping,normal,167,-12
+56,female,atypical,120.0,279.0,normal,normal,150,no angina,1.0,flat,heart disease,164,-14
+39,male,asymptomatic,110.0,273.0,normal,normal,132,no angina,0.0,upsloping,normal,181,-49
+42,male,atypical,120.0,198.0,normal,normal,155,no angina,0.0,upsloping,normal,178,-23
+43,female,atypical,120.0,249.0,normal,ST abnormality,176,no angina,0.0,upsloping,normal,177,-1
+50,male,atypical,120.0,168.0,normal,normal,160,no angina,0.0,upsloping,normal,170,-10
+54,male,asymptomatic,130.0,603.0,elevated,normal,125,angina,1.0,flat,heart disease,166,-41
+39,male,atypical,130.0,215.0,normal,normal,120,no angina,0.0,upsloping,normal,181,-61
+48,male,atypical,100.0,159.0,normal,normal,100,no angina,0.0,upsloping,normal,172,-72
+40,male,atypical,130.0,275.0,normal,normal,150,no angina,0.0,upsloping,normal,180,-30
+55,male,asymptomatic,120.0,270.0,normal,normal,140,no angina,0.0,upsloping,normal,165,-25
+41,male,atypical,120.0,291.0,normal,ST abnormality,160,no angina,0.0,upsloping,normal,179,-19
+56,male,asymptomatic,155.0,342.0,elevated,normal,150,angina,3.0,flat,heart disease,164,-14
+38,male,asymptomatic,110.0,190.0,normal,normal,150,angina,1.0,flat,heart disease,182,-32
+49,male,asymptomatic,140.0,185.0,normal,normal,130,no angina,0.0,upsloping,normal,171,-41
+44,male,asymptomatic,130.0,290.0,normal,normal,100,angina,2.0,flat,heart disease,176,-76
+54,male,atypical,160.0,195.0,normal,ST abnormality,130,no angina,1.0,upsloping,normal,166,-36
+59,male,asymptomatic,140.0,264.0,elevated,LVH,119,angina,0.0,flat,heart disease,161,-42
+49,male,asymptomatic,128.0,212.0,normal,normal,96,angina,0.0,flat,heart disease,171,-75
+47,male,atypical,160.0,263.0,normal,normal,174,no angina,0.0,upsloping,normal,173,1
+42,male,atypical,120.0,196.0,normal,normal,150,no angina,0.0,upsloping,normal,178,-28
+52,female,atypical,140.0,225.0,normal,normal,140,no angina,0.0,upsloping,normal,168,-28
+46,male,typical,140.0,272.0,elevated,normal,175,no angina,2.0,flat,heart disease,174,1
+50,male,asymptomatic,140.0,231.0,normal,ST abnormality,140,angina,5.0,flat,heart disease,170,-30
+48,male,atypical,140.0,238.0,normal,normal,118,no angina,0.0,upsloping,normal,172,-54
+58,male,asymptomatic,135.0,222.0,normal,normal,100,no angina,0.0,upsloping,normal,162,-62
+58,male,non-anginal,140.0,179.0,normal,normal,160,no angina,0.0,upsloping,normal,162,-2
+29,male,atypical,120.0,243.0,normal,normal,160,no angina,0.0,upsloping,normal,191,-31
+40,male,non-anginal,140.0,235.0,normal,normal,188,no angina,0.0,upsloping,normal,180,8
+53,male,atypical,140.0,320.0,normal,normal,162,no angina,0.0,upsloping,normal,167,-5
+49,male,non-anginal,140.0,187.0,normal,normal,172,no angina,0.0,upsloping,normal,171,1
+52,male,asymptomatic,140.0,266.0,normal,normal,134,angina,2.0,flat,heart disease,168,-34
+43,male,asymptomatic,140.0,288.0,normal,normal,135,angina,2.0,flat,heart disease,177,-42
+54,male,asymptomatic,140.0,216.0,normal,normal,105,no angina,1.5,flat,heart disease,166,-61
+59,male,atypical,140.0,287.0,normal,normal,150,no angina,0.0,upsloping,normal,161,-11
+37,male,non-anginal,130.0,194.0,normal,normal,150,no angina,0.0,upsloping,normal,183,-33
+46,female,asymptomatic,130.0,238.0,normal,normal,90,no angina,0.0,upsloping,normal,174,-84
+52,male,asymptomatic,130.0,225.0,normal,normal,120,angina,2.0,flat,heart disease,168,-48
+51,male,atypical,130.0,224.0,normal,normal,150,no angina,0.0,upsloping,normal,169,-19
+52,male,asymptomatic,140.0,404.0,normal,normal,124,angina,2.0,flat,heart disease,168,-44
+46,male,asymptomatic,110.0,238.0,normal,ST abnormality,140,angina,1.0,flat,normal,174,-34
+54,female,atypical,160.0,312.0,normal,normal,130,no angina,0.0,upsloping,normal,166,-36
+58,male,non-anginal,160.0,211.0,elevated,ST abnormality,92,no angina,0.0,flat,heart disease,162,-70
+58,male,atypical,130.0,251.0,normal,normal,110,no angina,0.0,upsloping,normal,162,-52
+41,male,asymptomatic,120.0,237.0,elevated,normal,138,angina,1.0,flat,heart disease,179,-41
+50,female,asymptomatic,120.0,328.0,normal,normal,110,angina,1.0,flat,normal,170,-60
+53,male,asymptomatic,180.0,285.0,normal,ST abnormality,120,angina,1.5,flat,heart disease,167,-47
+46,male,asymptomatic,180.0,280.0,normal,ST abnormality,120,no angina,0.0,upsloping,normal,174,-54
+50,male,atypical,170.0,209.0,normal,ST abnormality,116,no angina,0.0,upsloping,normal,170,-54
+48,male,atypical,130.0,245.0,normal,normal,160,no angina,0.0,upsloping,normal,172,-12
+45,male,non-anginal,135.0,192.0,normal,normal,110,no angina,0.0,upsloping,normal,175,-65
+41,female,atypical,125.0,184.0,normal,normal,180,no angina,0.0,upsloping,normal,179,1
+62,female,typical,160.0,193.0,normal,normal,116,no angina,0.0,upsloping,normal,158,-42
+49,male,asymptomatic,120.0,297.0,normal,normal,132,no angina,1.0,flat,normal,171,-39
+42,male,atypical,150.0,268.0,normal,normal,136,no angina,0.0,upsloping,normal,178,-42
+53,male,asymptomatic,120.0,246.0,normal,normal,116,angina,0.0,flat,heart disease,167,-51
+57,female,typical,130.0,308.0,normal,normal,98,no angina,1.0,flat,normal,163,-65
+47,male,typical,110.0,249.0,normal,normal,150,no angina,0.0,upsloping,normal,173,-23
+46,male,non-anginal,120.0,230.0,normal,normal,150,no angina,0.0,upsloping,normal,174,-24
+42,male,non-anginal,160.0,147.0,normal,normal,146,no angina,0.0,upsloping,normal,178,-32
+31,female,atypical,100.0,219.0,normal,ST abnormality,150,no angina,0.0,upsloping,normal,189,-39
+56,male,atypical,130.0,184.0,normal,normal,100,no angina,0.0,upsloping,normal,164,-64
+50,male,asymptomatic,150.0,215.0,normal,normal,140,angina,0.0,upsloping,normal,170,-30
+35,male,atypical,120.0,308.0,normal,LVH,180,no angina,0.0,upsloping,normal,185,-5
+35,male,atypical,110.0,257.0,normal,normal,140,no angina,0.0,flat,heart disease,185,-45
+28,male,atypical,130.0,132.0,normal,LVH,185,no angina,0.0,upsloping,normal,192,-7
+54,male,asymptomatic,125.0,216.0,normal,normal,140,no angina,0.0,flat,heart disease,166,-26
+48,male,asymptomatic,106.0,263.0,elevated,normal,110,no angina,0.0,flat,heart disease,172,-62
+50,female,non-anginal,140.0,288.0,normal,normal,140,angina,0.0,flat,heart disease,170,-30
+56,male,non-anginal,130.0,276.0,normal,normal,128,angina,1.0,upsloping,normal,164,-36
+56,female,non-anginal,130.0,219.0,normal,ST abnormality,164,no angina,0.0,upsloping,normal,164,0
+47,male,asymptomatic,150.0,226.0,normal,normal,98,angina,1.5,flat,heart disease,173,-75
+30,female,typical,170.0,237.0,normal,ST abnormality,170,no angina,0.0,upsloping,normal,190,-20
+39,male,asymptomatic,110.0,280.0,normal,normal,150,no angina,0.0,flat,heart disease,181,-31
+54,male,non-anginal,120.0,217.0,normal,normal,137,no angina,0.0,upsloping,normal,166,-29
+55,male,atypical,140.0,196.0,normal,normal,150,no angina,0.0,upsloping,normal,165,-15
+29,male,atypical,140.0,263.0,normal,normal,170,no angina,0.0,upsloping,normal,191,-21
+46,male,asymptomatic,130.0,222.0,normal,normal,112,no angina,0.0,flat,heart disease,174,-62
+51,female,asymptomatic,160.0,303.0,normal,normal,150,angina,1.0,flat,heart disease,169,-19
+48,female,non-anginal,120.0,195.0,normal,normal,125,no angina,0.0,upsloping,normal,172,-47
+33,male,non-anginal,120.0,298.0,normal,normal,185,no angina,0.0,upsloping,normal,187,-2
+55,male,atypical,120.0,256.0,elevated,normal,137,no angina,0.0,upsloping,normal,165,-28
+50,male,asymptomatic,145.0,264.0,normal,normal,150,no angina,0.0,flat,heart disease,170,-20
+53,male,non-anginal,120.0,195.0,normal,normal,140,no angina,0.0,upsloping,normal,167,-27
+38,male,asymptomatic,92.0,117.0,normal,normal,134,angina,2.5,flat,heart disease,182,-48
+41,male,atypical,120.0,295.0,normal,normal,170,no angina,0.0,upsloping,normal,179,-9
+37,female,asymptomatic,130.0,173.0,normal,ST abnormality,184,no angina,0.0,upsloping,normal,183,1
+37,male,asymptomatic,130.0,315.0,normal,normal,158,no angina,0.0,upsloping,normal,183,-25
+40,male,non-anginal,130.0,281.0,normal,normal,167,no angina,0.0,upsloping,normal,180,-13
+38,female,atypical,120.0,275.0,normal,normal,129,no angina,0.0,upsloping,normal,182,-53
+41,male,asymptomatic,112.0,250.0,normal,normal,142,no angina,0.0,upsloping,normal,179,-37
+54,female,atypical,140.0,309.0,normal,ST abnormality,140,no angina,0.0,upsloping,normal,166,-26
+39,male,atypical,120.0,200.0,normal,normal,160,angina,1.0,flat,normal,181,-21
+41,male,asymptomatic,120.0,336.0,normal,normal,118,angina,3.0,flat,heart disease,179,-61
+55,male,typical,140.0,295.0,normal,normal,136,no angina,0.0,flat,heart disease,165,-29
+48,male,asymptomatic,160.0,355.0,normal,normal,99,angina,2.0,flat,heart disease,172,-73
+48,male,asymptomatic,160.0,193.0,normal,normal,102,angina,3.0,flat,heart disease,172,-70
+55,male,atypical,145.0,326.0,normal,normal,155,no angina,0.0,upsloping,normal,165,-10
+54,male,asymptomatic,200.0,198.0,normal,normal,142,angina,2.0,flat,heart disease,166,-24
+55,male,atypical,160.0,292.0,elevated,normal,143,angina,2.0,flat,heart disease,165,-22
+43,female,atypical,120.0,266.0,normal,normal,118,no angina,0.0,upsloping,normal,177,-59
+48,male,asymptomatic,160.0,268.0,normal,normal,103,angina,1.0,flat,heart disease,172,-69
+54,male,typical,120.0,171.0,normal,normal,137,no angina,2.0,upsloping,normal,166,-29
+54,male,non-anginal,120.0,237.0,normal,normal,150,angina,1.5,flat,heart disease,166,-16
+48,male,asymptomatic,122.0,275.0,elevated,ST abnormality,150,angina,2.0,downsloping,heart disease,172,-22
+45,male,asymptomatic,130.0,219.0,normal,ST abnormality,130,angina,1.0,flat,heart disease,175,-45
+49,male,asymptomatic,130.0,341.0,normal,normal,120,angina,1.0,flat,heart disease,171,-51
+44,male,asymptomatic,135.0,491.0,normal,normal,135,no angina,0.0,flat,heart disease,176,-41
+48,male,asymptomatic,120.0,260.0,normal,normal,115,no angina,2.0,flat,heart disease,172,-57
+61,male,asymptomatic,125.0,292.0,normal,ST abnormality,115,angina,0.0,upsloping,normal,159,-44
+62,male,atypical,140.0,271.0,normal,normal,152,no angina,1.0,upsloping,normal,158,-6
+55,male,asymptomatic,145.0,248.0,normal,normal,96,angina,2.0,flat,heart disease,165,-69
+53,female,non-anginal,120.0,274.0,normal,normal,130,no angina,0.0,upsloping,normal,167,-37
+55,female,atypical,130.0,394.0,normal,LVH,150,no angina,0.0,upsloping,normal,165,-15
+36,male,non-anginal,150.0,160.0,normal,normal,172,no angina,0.0,upsloping,normal,184,-12
+51,female,non-anginal,150.0,200.0,normal,normal,120,no angina,0.5,upsloping,normal,169,-49
+55,female,atypical,122.0,320.0,normal,normal,155,no angina,0.0,upsloping,normal,165,-10
+46,male,atypical,140.0,275.0,normal,normal,165,angina,0.0,upsloping,normal,174,-9
+54,female,atypical,120.0,221.0,normal,normal,138,no angina,1.0,upsloping,normal,166,-28
+46,male,asymptomatic,120.0,231.0,normal,normal,115,angina,0.0,flat,heart disease,174,-59
+59,male,asymptomatic,130.0,126.0,normal,normal,125,no angina,0.0,flat,heart disease,161,-36
+47,male,non-anginal,140.0,193.0,normal,normal,145,angina,1.0,flat,heart disease,173,-28
+54,male,atypical,160.0,305.0,normal,normal,175,no angina,0.0,upsloping,normal,166,9
+52,male,asymptomatic,130.0,298.0,normal,normal,110,angina,1.0,flat,heart disease,168,-58
+34,male,atypical,98.0,220.0,normal,normal,150,no angina,0.0,upsloping,normal,186,-36
+54,male,asymptomatic,130.0,242.0,normal,normal,91,angina,1.0,flat,heart disease,166,-75
+47,female,non-anginal,130.0,235.0,normal,normal,145,no angina,2.0,flat,normal,173,-28
+45,male,asymptomatic,120.0,225.0,normal,normal,140,no angina,0.0,upsloping,normal,175,-35
+32,female,atypical,105.0,198.0,normal,normal,165,no angina,0.0,upsloping,normal,188,-23
+55,male,asymptomatic,140.0,201.0,normal,normal,130,angina,3.0,flat,heart disease,165,-35
+55,male,non-anginal,120.0,220.0,normal,LVH,134,no angina,0.0,upsloping,normal,165,-31
+45,female,atypical,180.0,295.0,normal,normal,180,no angina,0.0,upsloping,normal,175,5
+59,male,non-anginal,180.0,213.0,normal,normal,100,no angina,0.0,upsloping,normal,161,-61
+51,male,non-anginal,135.0,160.0,normal,normal,150,no angina,2.0,flat,heart disease,169,-19
+52,male,asymptomatic,170.0,223.0,normal,normal,126,angina,1.5,flat,heart disease,168,-42
+57,female,asymptomatic,180.0,347.0,normal,ST abnormality,126,angina,0.8,flat,normal,163,-37
+54,female,atypical,130.0,253.0,normal,ST abnormality,155,no angina,0.0,upsloping,normal,166,-11
+60,male,non-anginal,120.0,246.0,normal,LVH,135,no angina,0.0,upsloping,normal,160,-25
+49,male,asymptomatic,150.0,222.0,normal,normal,122,no angina,2.0,flat,heart disease,171,-49
+51,female,non-anginal,130.0,220.0,normal,normal,160,angina,2.0,upsloping,normal,169,-9
+55,female,atypical,110.0,344.0,normal,ST abnormality,160,no angina,0.0,upsloping,normal,165,-5
+42,male,asymptomatic,140.0,358.0,normal,normal,170,no angina,0.0,upsloping,normal,178,-8
+51,female,non-anginal,110.0,190.0,normal,normal,120,no angina,0.0,upsloping,normal,169,-49
+59,male,asymptomatic,140.0,169.0,normal,normal,140,no angina,0.0,upsloping,normal,161,-21
+53,male,atypical,120.0,181.0,normal,normal,132,no angina,0.0,upsloping,normal,167,-35
+48,female,atypical,133.0,308.0,normal,ST abnormality,156,no angina,2.0,upsloping,normal,172,-16
+36,male,atypical,120.0,166.0,normal,normal,180,no angina,0.0,upsloping,normal,184,-4
+48,male,non-anginal,110.0,211.0,normal,normal,138,no angina,0.0,upsloping,normal,172,-34
+47,female,atypical,140.0,257.0,normal,normal,135,no angina,1.0,upsloping,normal,173,-38
+53,male,asymptomatic,130.0,182.0,normal,normal,148,no angina,0.0,upsloping,normal,167,-19
+65,male,asymptomatic,115.0,,normal,normal,93,angina,0.0,flat,heart disease,155,-62
+32,male,typical,95.0,,elevated,normal,127,no angina,0.7,upsloping,heart disease,188,-61
+61,male,asymptomatic,105.0,,elevated,normal,110,angina,1.5,upsloping,heart disease,159,-49
+50,male,asymptomatic,145.0,,elevated,normal,139,angina,0.7,flat,heart disease,170,-31
+57,male,asymptomatic,110.0,,elevated,ST abnormality,131,angina,1.4,upsloping,heart disease,163,-32
+51,male,asymptomatic,110.0,,elevated,normal,92,no angina,0.0,flat,heart disease,169,-77
+47,male,asymptomatic,110.0,,elevated,ST abnormality,149,no angina,2.1,upsloping,heart disease,173,-24
+60,male,asymptomatic,160.0,,elevated,normal,149,no angina,0.4,flat,heart disease,160,-11
+55,male,atypical,140.0,,normal,ST abnormality,150,no angina,0.2,upsloping,normal,165,-15
+53,male,asymptomatic,125.0,,elevated,normal,120,no angina,1.5,upsloping,heart disease,167,-47
+62,female,asymptomatic,120.0,,elevated,ST abnormality,123,angina,1.7,downsloping,heart disease,158,-35
+51,male,asymptomatic,95.0,,elevated,normal,126,no angina,2.2,flat,heart disease,169,-43
+51,female,asymptomatic,120.0,,elevated,normal,127,angina,1.5,upsloping,heart disease,169,-42
+55,male,asymptomatic,115.0,,elevated,normal,155,no angina,0.1,flat,heart disease,165,-10
+53,male,atypical,130.0,,normal,ST abnormality,120,no angina,0.7,downsloping,normal,167,-47
+58,male,asymptomatic,115.0,,elevated,normal,138,no angina,0.5,upsloping,heart disease,162,-24
+57,male,asymptomatic,95.0,,elevated,normal,182,no angina,0.7,downsloping,heart disease,163,19
+65,male,asymptomatic,155.0,,normal,normal,154,no angina,1.0,upsloping,normal,155,-1
+60,male,asymptomatic,125.0,,elevated,normal,110,no angina,0.1,upsloping,heart disease,160,-50
+41,male,asymptomatic,125.0,,elevated,normal,176,no angina,1.6,upsloping,heart disease,179,-3
+34,male,asymptomatic,115.0,,elevated,normal,154,no angina,0.2,upsloping,heart disease,186,-32
+53,male,asymptomatic,80.0,,normal,normal,141,angina,2.0,downsloping,normal,167,-26
+74,male,atypical,145.0,,elevated,ST abnormality,123,no angina,1.3,upsloping,heart disease,146,-23
+57,male,non-anginal,105.0,,elevated,normal,148,no angina,0.3,flat,heart disease,163,-15
+56,male,asymptomatic,140.0,,elevated,normal,121,angina,1.8,upsloping,heart disease,164,-43
+61,male,asymptomatic,130.0,,elevated,normal,77,no angina,2.5,flat,heart disease,159,-82
+68,male,asymptomatic,145.0,,elevated,normal,136,no angina,1.8,upsloping,heart disease,152,-16
+59,male,non-anginal,125.0,,elevated,normal,175,no angina,2.6,flat,heart disease,161,14
+63,male,asymptomatic,100.0,,elevated,normal,109,no angina,-0.9,flat,heart disease,157,-48
+38,female,asymptomatic,105.0,,elevated,normal,166,no angina,2.8,upsloping,heart disease,182,-16
+62,male,asymptomatic,115.0,,elevated,normal,128,angina,2.5,downsloping,heart disease,158,-30
+46,male,asymptomatic,100.0,,elevated,ST abnormality,133,no angina,-2.6,flat,heart disease,174,-41
+42,male,asymptomatic,105.0,,elevated,normal,128,angina,-1.5,downsloping,heart disease,178,-50
+45,male,non-anginal,110.0,,normal,normal,138,no angina,-0.1,upsloping,normal,175,-37
+59,male,asymptomatic,125.0,,elevated,normal,119,angina,0.9,upsloping,heart disease,161,-42
+52,male,asymptomatic,95.0,,elevated,normal,82,angina,0.8,flat,heart disease,168,-86
+60,male,asymptomatic,130.0,,elevated,ST abnormality,130,angina,1.1,downsloping,heart disease,160,-30
+60,male,non-anginal,115.0,,elevated,normal,143,no angina,2.4,upsloping,heart disease,160,-17
+56,male,asymptomatic,115.0,,elevated,ST abnormality,82,no angina,-1.0,upsloping,heart disease,164,-82
+38,male,non-anginal,100.0,,normal,normal,179,no angina,-1.1,upsloping,normal,182,-3
+40,male,asymptomatic,95.0,,elevated,ST abnormality,144,no angina,0.0,upsloping,heart disease,180,-36
+51,male,asymptomatic,130.0,,elevated,normal,170,no angina,-0.7,upsloping,heart disease,169,1
+62,male,typical,120.0,,elevated,LVH,134,no angina,-0.8,flat,heart disease,158,-24
+72,male,non-anginal,160.0,,normal,LVH,114,no angina,1.6,flat,normal,148,-34
+63,male,asymptomatic,150.0,,elevated,ST abnormality,154,no angina,3.7,upsloping,heart disease,157,-3
+63,male,asymptomatic,140.0,,elevated,LVH,149,no angina,2.0,upsloping,heart disease,157,-8
+64,female,asymptomatic,95.0,,elevated,normal,145,no angina,1.1,downsloping,heart disease,156,-11
+43,male,asymptomatic,100.0,,elevated,normal,122,no angina,1.5,downsloping,heart disease,177,-55
+64,male,asymptomatic,110.0,,elevated,normal,114,angina,1.3,downsloping,heart disease,156,-42
+61,male,asymptomatic,110.0,,elevated,normal,113,no angina,1.4,flat,heart disease,159,-46
+52,male,asymptomatic,130.0,,elevated,normal,120,no angina,0.0,flat,heart disease,168,-48
+51,male,asymptomatic,120.0,,elevated,normal,104,no angina,0.0,flat,heart disease,169,-65
+69,male,asymptomatic,135.0,,normal,normal,130,no angina,0.0,flat,heart disease,151,-21
+59,male,asymptomatic,120.0,,normal,normal,115,no angina,0.0,flat,heart disease,161,-46
+48,male,asymptomatic,115.0,,elevated,normal,128,no angina,0.0,flat,heart disease,172,-44
+69,male,asymptomatic,137.0,,normal,ST abnormality,104,angina,1.6,flat,heart disease,151,-47
+36,male,asymptomatic,110.0,,elevated,normal,125,angina,1.0,flat,heart disease,184,-59
+53,male,asymptomatic,120.0,,elevated,normal,120,no angina,0.0,flat,heart disease,167,-47
+43,male,asymptomatic,140.0,,normal,ST abnormality,140,angina,0.5,upsloping,heart disease,177,-37
+56,male,asymptomatic,120.0,,normal,ST abnormality,100,angina,-1.0,downsloping,heart disease,164,-64
+58,male,asymptomatic,130.0,,normal,ST abnormality,100,angina,1.0,flat,heart disease,162,-62
+55,male,asymptomatic,120.0,,normal,ST abnormality,92,no angina,0.3,upsloping,heart disease,165,-73
+67,male,typical,145.0,,normal,LVH,125,no angina,0.0,flat,heart disease,153,-28
+46,male,asymptomatic,115.0,,normal,normal,113,angina,1.5,flat,heart disease,174,-61
+53,male,atypical,120.0,,normal,normal,95,no angina,0.0,flat,heart disease,167,-72
+38,male,non-anginal,115.0,,normal,normal,128,angina,0.0,flat,heart disease,182,-54
+53,male,non-anginal,105.0,,normal,normal,115,no angina,0.0,flat,heart disease,167,-52
+62,male,non-anginal,160.0,,normal,normal,72,angina,0.0,flat,heart disease,158,-86
+47,male,asymptomatic,160.0,,normal,normal,124,angina,0.0,flat,heart disease,173,-49
+56,male,non-anginal,155.0,,normal,ST abnormality,99,no angina,0.0,flat,heart disease,164,-65
+56,male,asymptomatic,120.0,,normal,ST abnormality,148,no angina,0.0,flat,heart disease,164,-16
+56,male,non-anginal,120.0,,normal,normal,97,no angina,0.0,flat,normal,164,-67
+64,female,asymptomatic,200.0,,normal,normal,140,angina,1.0,flat,heart disease,156,-16
+61,male,asymptomatic,150.0,,normal,normal,117,angina,2.0,flat,heart disease,159,-42
+68,male,asymptomatic,135.0,,normal,ST abnormality,120,angina,0.0,upsloping,heart disease,152,-32
+57,male,asymptomatic,140.0,,normal,normal,120,angina,2.0,flat,heart disease,163,-43
+63,male,asymptomatic,150.0,,normal,normal,86,angina,2.0,flat,heart disease,157,-71
+60,male,asymptomatic,135.0,,normal,normal,63,angina,0.5,upsloping,heart disease,160,-97
+66,male,asymptomatic,150.0,,normal,normal,108,angina,2.0,flat,heart disease,154,-46
+63,male,asymptomatic,185.0,,normal,normal,98,angina,0.0,upsloping,heart disease,157,-59
+59,male,asymptomatic,135.0,,normal,normal,115,angina,1.0,flat,heart disease,161,-46
+61,male,asymptomatic,125.0,,normal,normal,105,angina,0.0,downsloping,heart disease,159,-54
+73,female,non-anginal,160.0,,normal,ST abnormality,121,no angina,0.0,upsloping,heart disease,147,-26
+47,male,non-anginal,155.0,,normal,normal,118,angina,1.0,flat,heart disease,173,-55
+65,male,asymptomatic,160.0,,elevated,ST abnormality,122,no angina,1.2,flat,heart disease,155,-33
+70,male,asymptomatic,140.0,,elevated,normal,157,angina,2.0,flat,heart disease,150,7
+50,male,asymptomatic,120.0,,normal,ST abnormality,156,angina,0.0,upsloping,heart disease,170,-14
+60,male,asymptomatic,160.0,,normal,ST abnormality,99,angina,0.5,flat,heart disease,160,-61
+50,male,asymptomatic,115.0,,normal,normal,120,angina,0.5,flat,heart disease,170,-50
+43,male,asymptomatic,115.0,,normal,normal,145,angina,2.0,flat,heart disease,177,-32
+38,female,asymptomatic,110.0,,normal,normal,156,no angina,0.0,flat,heart disease,182,-26
+54,male,asymptomatic,120.0,,normal,normal,155,no angina,0.0,flat,heart disease,166,-11
+61,male,asymptomatic,150.0,,normal,normal,105,angina,0.0,flat,heart disease,159,-54
+42,male,asymptomatic,145.0,,normal,normal,99,angina,0.0,flat,heart disease,178,-79
+53,male,asymptomatic,130.0,,normal,LVH,135,angina,1.0,flat,heart disease,167,-32
+55,male,asymptomatic,140.0,,normal,normal,83,no angina,0.0,flat,heart disease,165,-82
+61,male,asymptomatic,160.0,,elevated,ST abnormality,145,no angina,1.0,flat,heart disease,159,-14
+51,male,asymptomatic,140.0,,normal,normal,60,no angina,0.0,flat,heart disease,169,-109
+70,male,asymptomatic,115.0,,normal,ST abnormality,92,angina,0.0,flat,heart disease,150,-58
+61,male,asymptomatic,130.0,,normal,LVH,115,no angina,0.0,flat,heart disease,159,-44
+38,male,asymptomatic,150.0,,elevated,normal,120,angina,0.7,flat,heart disease,182,-62
+57,male,asymptomatic,160.0,,elevated,normal,98,angina,2.0,flat,heart disease,163,-65
+38,male,asymptomatic,135.0,,elevated,normal,150,no angina,0.0,flat,heart disease,182,-32
+62,female,typical,140.0,,elevated,normal,143,no angina,0.0,flat,heart disease,158,-15
+58,male,asymptomatic,170.0,,elevated,ST abnormality,105,angina,0.0,flat,heart disease,162,-57
+52,male,asymptomatic,165.0,,elevated,normal,122,angina,1.0,upsloping,heart disease,168,-46
+61,male,non-anginal,200.0,,elevated,ST abnormality,70,no angina,0.0,flat,heart disease,159,-89
+50,female,asymptomatic,160.0,,elevated,normal,110,no angina,0.0,flat,heart disease,170,-60
+51,male,asymptomatic,130.0,,elevated,ST abnormality,163,no angina,0.0,flat,heart disease,169,-6
+65,male,asymptomatic,145.0,,elevated,ST abnormality,67,no angina,0.7,flat,heart disease,155,-88
+52,male,asymptomatic,135.0,,elevated,normal,128,angina,2.0,flat,heart disease,168,-40
+47,male,non-anginal,110.0,,elevated,normal,120,angina,0.0,flat,heart disease,173,-53
+35,male,asymptomatic,120.0,,elevated,normal,130,angina,1.2,flat,heart disease,185,-55
+57,male,asymptomatic,140.0,,elevated,normal,100,angina,0.0,flat,heart disease,163,-63
+62,male,asymptomatic,115.0,,elevated,normal,72,angina,-0.5,flat,heart disease,158,-86
+59,male,asymptomatic,110.0,,elevated,normal,94,no angina,0.0,flat,heart disease,161,-67
+53,male,non-anginal,160.0,,elevated,LVH,122,angina,0.0,flat,heart disease,167,-45
+62,male,asymptomatic,150.0,,elevated,ST abnormality,78,no angina,2.0,flat,heart disease,158,-80
+54,male,asymptomatic,180.0,,elevated,normal,150,no angina,1.5,flat,heart disease,166,-16
+56,male,asymptomatic,125.0,,elevated,normal,103,angina,1.0,flat,heart disease,164,-61
+56,male,non-anginal,125.0,,elevated,normal,98,no angina,-2.0,flat,heart disease,164,-66
+54,male,asymptomatic,130.0,,elevated,normal,110,angina,3.0,flat,heart disease,166,-56
+66,female,asymptomatic,155.0,,elevated,normal,90,no angina,0.0,flat,heart disease,154,-64
+63,male,asymptomatic,140.0,260.0,normal,ST abnormality,112,angina,3.0,flat,heart disease,157,-45
+44,male,asymptomatic,130.0,209.0,normal,ST abnormality,127,no angina,0.0,upsloping,normal,176,-49
+60,male,asymptomatic,132.0,218.0,normal,ST abnormality,140,angina,1.5,downsloping,heart disease,160,-20
+55,male,asymptomatic,142.0,228.0,normal,ST abnormality,149,angina,2.5,upsloping,heart disease,165,-16
+66,male,non-anginal,110.0,213.0,elevated,LVH,99,angina,1.3,flat,normal,154,-55
+66,male,non-anginal,120.0,,normal,ST abnormality,120,no angina,-0.5,upsloping,normal,154,-34
+65,male,asymptomatic,150.0,236.0,elevated,ST abnormality,105,angina,0.0,flat,heart disease,155,-50
+60,male,non-anginal,180.0,,normal,ST abnormality,140,angina,1.5,flat,normal,160,-20
+60,male,non-anginal,120.0,,elevated,normal,141,angina,2.0,upsloping,heart disease,160,-19
+60,male,atypical,160.0,267.0,elevated,ST abnormality,157,no angina,0.5,flat,heart disease,160,-3
+56,male,atypical,126.0,166.0,normal,ST abnormality,140,no angina,0.0,upsloping,normal,164,-24
+59,male,asymptomatic,140.0,,normal,ST abnormality,117,angina,1.0,flat,heart disease,161,-44
+62,male,asymptomatic,110.0,,normal,normal,120,angina,0.5,flat,heart disease,158,-38
+63,male,non-anginal,133.0,,normal,LVH,120,angina,1.0,flat,heart disease,157,-37
+57,male,asymptomatic,128.0,,elevated,ST abnormality,148,angina,1.0,flat,heart disease,163,-15
+62,male,asymptomatic,120.0,220.0,normal,ST abnormality,86,no angina,0.0,upsloping,normal,158,-72
+63,male,asymptomatic,170.0,177.0,normal,normal,84,angina,2.5,downsloping,heart disease,157,-73
+46,male,asymptomatic,110.0,236.0,normal,normal,125,angina,2.0,flat,heart disease,174,-49
+63,male,asymptomatic,126.0,,normal,ST abnormality,120,no angina,1.5,downsloping,normal,157,-37
+60,male,asymptomatic,152.0,,normal,ST abnormality,118,angina,0.0,upsloping,normal,160,-42
+58,male,asymptomatic,116.0,,normal,normal,124,no angina,1.0,upsloping,heart disease,162,-38
+64,male,asymptomatic,120.0,,elevated,ST abnormality,106,no angina,2.0,flat,heart disease,156,-50
+63,male,non-anginal,130.0,,normal,ST abnormality,111,angina,0.0,flat,heart disease,157,-46
+74,male,non-anginal,138.0,,normal,normal,116,no angina,0.2,upsloping,normal,146,-30
+52,male,non-anginal,128.0,,normal,ST abnormality,180,no angina,3.0,upsloping,heart disease,168,12
+69,male,asymptomatic,130.0,,elevated,ST abnormality,129,no angina,1.0,flat,heart disease,151,-22
+51,male,asymptomatic,128.0,,elevated,ST abnormality,125,angina,1.2,flat,heart disease,169,-44
+60,male,asymptomatic,130.0,186.0,elevated,ST abnormality,140,angina,0.5,flat,heart disease,160,-20
+56,male,asymptomatic,120.0,100.0,normal,normal,120,angina,1.5,flat,heart disease,164,-44
+55,male,non-anginal,136.0,228.0,normal,ST abnormality,124,angina,1.6,flat,heart disease,165,-41
+54,male,asymptomatic,130.0,,normal,ST abnormality,117,angina,1.4,flat,heart disease,166,-49
+77,male,asymptomatic,124.0,171.0,normal,ST abnormality,110,angina,2.0,upsloping,heart disease,143,-33
+63,male,asymptomatic,160.0,230.0,elevated,normal,105,angina,1.0,flat,heart disease,157,-52
+55,male,non-anginal,,,normal,normal,155,no angina,1.5,flat,heart disease,165,-10
+52,male,non-anginal,122.0,,normal,normal,110,angina,2.0,downsloping,heart disease,168,-58
+64,male,asymptomatic,144.0,,normal,ST abnormality,122,angina,1.0,flat,heart disease,156,-34
+60,male,asymptomatic,140.0,281.0,normal,ST abnormality,118,angina,1.5,flat,heart disease,160,-42
+60,male,asymptomatic,120.0,,normal,normal,133,angina,2.0,upsloping,normal,160,-27
+58,male,asymptomatic,136.0,203.0,elevated,normal,123,angina,1.2,flat,heart disease,162,-39
+59,male,asymptomatic,154.0,,normal,ST abnormality,131,angina,1.5,upsloping,normal,161,-30
+61,male,non-anginal,120.0,,normal,normal,80,angina,0.0,flat,heart disease,159,-79
+40,male,asymptomatic,125.0,,elevated,normal,165,no angina,0.0,flat,heart disease,180,-15
+61,male,asymptomatic,134.0,,elevated,ST abnormality,86,no angina,1.5,flat,heart disease,159,-73
+41,male,asymptomatic,104.0,,normal,ST abnormality,111,no angina,0.0,upsloping,normal,179,-68
+57,male,asymptomatic,139.0,277.0,elevated,ST abnormality,118,angina,1.9,flat,heart disease,163,-45
+63,male,asymptomatic,136.0,,normal,normal,84,angina,0.0,flat,heart disease,157,-73
+59,male,asymptomatic,122.0,233.0,normal,normal,117,angina,1.3,downsloping,heart disease,161,-44
+51,male,asymptomatic,128.0,,normal,normal,107,no angina,0.0,upsloping,normal,169,-62
+59,male,non-anginal,131.0,,normal,normal,128,angina,2.0,downsloping,heart disease,161,-33
+42,male,non-anginal,134.0,240.0,normal,normal,160,no angina,0.0,upsloping,normal,178,-18
+55,male,non-anginal,120.0,,normal,ST abnormality,125,angina,2.5,flat,heart disease,165,-40
+63,female,atypical,132.0,,normal,normal,130,no angina,0.1,upsloping,normal,157,-27
+62,male,asymptomatic,152.0,153.0,normal,ST abnormality,97,angina,1.6,upsloping,heart disease,158,-61
+56,male,atypical,124.0,224.0,elevated,normal,161,no angina,2.0,flat,normal,164,-3
+53,male,asymptomatic,126.0,,normal,normal,106,no angina,0.0,flat,heart disease,167,-61
+68,male,asymptomatic,138.0,,normal,normal,130,angina,3.0,flat,heart disease,152,-22
+53,male,asymptomatic,154.0,,elevated,ST abnormality,140,angina,1.5,flat,heart disease,167,-27
+60,male,non-anginal,141.0,316.0,elevated,ST abnormality,122,angina,1.7,flat,heart disease,160,-38
+62,male,atypical,131.0,,normal,normal,130,no angina,0.1,upsloping,normal,158,-28
+59,male,asymptomatic,178.0,,elevated,LVH,120,angina,0.0,flat,heart disease,161,-41
+51,male,asymptomatic,132.0,218.0,elevated,LVH,139,no angina,0.1,upsloping,normal,169,-30
+61,male,asymptomatic,110.0,,elevated,normal,108,angina,2.0,downsloping,heart disease,159,-51
+57,male,asymptomatic,130.0,311.0,elevated,ST abnormality,148,angina,2.0,flat,heart disease,163,-15
+56,male,non-anginal,170.0,,normal,LVH,123,angina,2.5,flat,heart disease,164,-41
+58,male,atypical,126.0,,elevated,normal,110,angina,2.0,flat,heart disease,162,-52
+69,male,non-anginal,140.0,,elevated,ST abnormality,118,no angina,2.5,downsloping,heart disease,151,-33
+67,male,typical,142.0,270.0,elevated,normal,125,no angina,2.5,upsloping,heart disease,153,-28
+58,male,asymptomatic,120.0,,normal,LVH,106,angina,1.5,downsloping,heart disease,162,-56
+65,male,asymptomatic,134.0,,normal,normal,112,angina,1.1,flat,heart disease,155,-43
+63,male,atypical,139.0,217.0,elevated,ST abnormality,128,angina,1.2,flat,heart disease,157,-29
+55,male,atypical,110.0,214.0,elevated,ST abnormality,180,no angina,0.4,upsloping,normal,165,15
+57,male,asymptomatic,140.0,214.0,normal,ST abnormality,144,angina,2.0,flat,heart disease,163,-19
+65,male,typical,140.0,252.0,normal,normal,135,no angina,0.3,upsloping,normal,155,-20
+54,male,asymptomatic,136.0,220.0,normal,normal,140,angina,3.0,flat,heart disease,166,-26
+72,male,non-anginal,120.0,214.0,normal,normal,102,angina,1.0,flat,heart disease,148,-46
+75,male,asymptomatic,170.0,203.0,elevated,ST abnormality,108,no angina,0.0,flat,heart disease,145,-37
+49,male,typical,130.0,,normal,ST abnormality,145,no angina,3.0,flat,heart disease,171,-26
+51,male,non-anginal,137.0,339.0,normal,normal,127,angina,1.7,flat,heart disease,169,-42
+60,male,asymptomatic,142.0,216.0,normal,normal,110,angina,2.5,flat,heart disease,160,-50
+64,female,asymptomatic,142.0,276.0,normal,normal,140,angina,1.0,flat,heart disease,156,-16
+58,male,asymptomatic,132.0,458.0,elevated,normal,69,no angina,1.0,downsloping,normal,162,-93
+61,male,asymptomatic,146.0,241.0,normal,normal,148,angina,3.0,downsloping,heart disease,159,-11
+67,male,asymptomatic,160.0,384.0,elevated,ST abnormality,130,angina,0.0,flat,heart disease,153,-23
+62,male,asymptomatic,135.0,297.0,normal,normal,130,angina,1.0,flat,heart disease,158,-28
+65,male,asymptomatic,136.0,248.0,normal,normal,140,angina,4.0,downsloping,heart disease,155,-15
+63,male,asymptomatic,130.0,308.0,normal,normal,138,angina,2.0,flat,heart disease,157,-19
+69,male,asymptomatic,140.0,208.0,normal,ST abnormality,140,angina,2.0,flat,heart disease,151,-11
+51,male,asymptomatic,132.0,227.0,elevated,ST abnormality,138,no angina,0.2,upsloping,normal,169,-31
+62,male,asymptomatic,158.0,210.0,elevated,normal,112,angina,3.0,downsloping,heart disease,158,-46
+55,male,non-anginal,136.0,245.0,elevated,ST abnormality,131,angina,1.2,flat,heart disease,165,-34
+75,male,asymptomatic,136.0,225.0,normal,normal,112,angina,3.0,flat,heart disease,145,-33
+40,male,non-anginal,106.0,240.0,normal,normal,80,angina,0.0,upsloping,normal,180,-100
+67,male,asymptomatic,120.0,,elevated,normal,150,no angina,1.5,downsloping,heart disease,153,-3
+58,male,asymptomatic,110.0,198.0,normal,normal,110,no angina,0.0,flat,heart disease,162,-52
+60,male,asymptomatic,136.0,195.0,normal,normal,126,no angina,0.3,upsloping,normal,160,-34
+63,male,asymptomatic,160.0,267.0,elevated,ST abnormality,88,angina,2.0,flat,heart disease,157,-69
+35,male,non-anginal,123.0,161.0,normal,ST abnormality,153,no angina,-0.1,upsloping,normal,185,-32
+62,male,typical,112.0,258.0,normal,ST abnormality,150,angina,1.3,flat,heart disease,158,-8
+43,male,asymptomatic,122.0,,normal,normal,120,no angina,0.5,upsloping,heart disease,177,-57
+63,male,non-anginal,130.0,,elevated,ST abnormality,160,no angina,3.0,flat,normal,157,3
+68,male,non-anginal,150.0,195.0,elevated,normal,132,no angina,0.0,not evaluated,heart disease,152,-20
+65,male,asymptomatic,150.0,235.0,normal,normal,120,angina,1.5,flat,heart disease,155,-35
+48,male,non-anginal,102.0,,elevated,ST abnormality,110,angina,1.0,downsloping,heart disease,172,-62
+63,male,asymptomatic,96.0,305.0,normal,ST abnormality,121,angina,1.0,upsloping,heart disease,157,-36
+64,male,asymptomatic,130.0,223.0,normal,ST abnormality,128,no angina,0.5,flat,normal,156,-28
+61,male,asymptomatic,120.0,282.0,normal,ST abnormality,135,angina,4.0,downsloping,heart disease,159,-24
+50,male,asymptomatic,144.0,349.0,normal,LVH,120,angina,1.0,upsloping,heart disease,170,-50
+59,male,asymptomatic,124.0,160.0,normal,normal,117,angina,1.0,flat,heart disease,161,-44
+55,male,asymptomatic,150.0,160.0,normal,ST abnormality,150,no angina,0.0,upsloping,normal,165,-15
+45,male,non-anginal,130.0,236.0,normal,normal,144,no angina,0.1,upsloping,normal,175,-31
+65,male,asymptomatic,144.0,312.0,normal,LVH,113,angina,1.7,flat,heart disease,155,-42
+61,male,atypical,139.0,283.0,normal,normal,135,no angina,0.3,upsloping,normal,159,-24
+49,male,non-anginal,131.0,142.0,normal,normal,127,angina,1.5,flat,heart disease,171,-44
+72,male,asymptomatic,143.0,211.0,normal,normal,109,angina,1.4,flat,heart disease,148,-39
+50,male,asymptomatic,133.0,218.0,normal,normal,128,angina,1.1,flat,heart disease,170,-42
+64,male,asymptomatic,143.0,306.0,elevated,ST abnormality,115,angina,1.8,flat,heart disease,156,-41
+55,male,asymptomatic,116.0,186.0,elevated,ST abnormality,102,no angina,0.0,flat,heart disease,165,-63
+63,male,asymptomatic,110.0,252.0,normal,ST abnormality,140,angina,2.0,flat,heart disease,157,-17
+59,male,asymptomatic,125.0,222.0,normal,normal,135,angina,2.5,downsloping,heart disease,161,-26
+56,male,asymptomatic,130.0,,normal,LVH,122,angina,1.0,flat,heart disease,164,-42
+62,male,non-anginal,133.0,,elevated,ST abnormality,119,angina,1.2,flat,heart disease,158,-39
+74,male,asymptomatic,150.0,258.0,elevated,ST abnormality,130,angina,4.0,downsloping,heart disease,146,-16
+54,male,asymptomatic,130.0,202.0,elevated,normal,112,angina,2.0,flat,heart disease,166,-54
+57,male,asymptomatic,110.0,197.0,normal,LVH,100,no angina,0.0,upsloping,normal,163,-63
+62,male,non-anginal,138.0,204.0,normal,ST abnormality,122,angina,1.2,flat,heart disease,158,-36
+76,male,non-anginal,104.0,113.0,normal,LVH,120,no angina,3.5,downsloping,heart disease,144,-24
+54,female,asymptomatic,138.0,274.0,normal,normal,105,angina,1.5,flat,heart disease,166,-61
+70,male,asymptomatic,170.0,192.0,normal,ST abnormality,129,angina,3.0,downsloping,heart disease,150,-21
+61,female,atypical,140.0,298.0,elevated,normal,120,angina,0.0,upsloping,normal,159,-39
+48,male,asymptomatic,132.0,272.0,normal,ST abnormality,139,no angina,0.2,upsloping,normal,172,-33
+48,male,non-anginal,132.0,220.0,elevated,ST abnormality,162,no angina,0.0,flat,heart disease,172,-10
+61,male,typical,142.0,200.0,elevated,ST abnormality,100,no angina,1.5,downsloping,heart disease,159,-59
+66,male,asymptomatic,112.0,261.0,normal,normal,140,no angina,1.5,upsloping,heart disease,154,-14
+68,male,typical,139.0,181.0,elevated,ST abnormality,135,no angina,0.2,upsloping,normal,152,-17
+55,male,asymptomatic,172.0,260.0,normal,normal,73,no angina,2.0,flat,heart disease,165,-92
+62,male,non-anginal,120.0,220.0,normal,LVH,86,no angina,0.0,upsloping,normal,158,-72
+71,male,non-anginal,144.0,221.0,normal,normal,108,angina,1.8,flat,heart disease,149,-41
+74,male,typical,145.0,216.0,elevated,normal,116,angina,1.8,flat,heart disease,146,-30
+53,male,non-anginal,155.0,175.0,elevated,ST abnormality,160,no angina,0.3,upsloping,normal,167,-7
+58,male,non-anginal,150.0,219.0,normal,ST abnormality,118,angina,0.0,flat,heart disease,162,-44
+75,male,asymptomatic,160.0,310.0,elevated,normal,112,angina,2.0,downsloping,normal,145,-33
+56,male,non-anginal,137.0,208.0,elevated,ST abnormality,122,angina,1.8,flat,heart disease,164,-42
+58,male,non-anginal,137.0,232.0,normal,ST abnormality,124,angina,1.4,flat,heart disease,162,-38
+64,male,asymptomatic,134.0,273.0,normal,normal,102,angina,4.0,downsloping,heart disease,156,-54
+54,male,non-anginal,133.0,203.0,normal,ST abnormality,137,no angina,0.2,upsloping,normal,166,-29
+54,male,atypical,132.0,182.0,normal,ST abnormality,141,no angina,0.1,upsloping,normal,166,-25
+59,male,asymptomatic,140.0,274.0,normal,normal,154,angina,2.0,flat,normal,161,-7
+55,male,asymptomatic,135.0,204.0,elevated,ST abnormality,126,angina,1.1,flat,heart disease,165,-39
+57,male,asymptomatic,144.0,270.0,elevated,ST abnormality,160,angina,2.0,flat,heart disease,163,-3
+61,male,asymptomatic,141.0,292.0,normal,ST abnormality,115,angina,1.7,flat,heart disease,159,-44
+41,male,asymptomatic,150.0,171.0,normal,normal,128,angina,1.5,flat,normal,179,-51
+71,male,asymptomatic,130.0,221.0,normal,ST abnormality,115,angina,0.0,flat,heart disease,149,-34
+38,male,asymptomatic,110.0,289.0,normal,normal,105,angina,1.5,downsloping,heart disease,182,-77
+55,male,asymptomatic,158.0,217.0,normal,normal,110,angina,2.5,flat,heart disease,165,-55
+56,male,asymptomatic,128.0,223.0,normal,ST abnormality,119,angina,2.0,downsloping,heart disease,164,-45
+69,male,asymptomatic,140.0,110.0,elevated,normal,109,angina,1.5,flat,heart disease,151,-42
+64,male,asymptomatic,150.0,193.0,normal,ST abnormality,135,angina,0.5,flat,heart disease,156,-21
+72,male,asymptomatic,160.0,123.0,elevated,LVH,130,no angina,1.5,flat,heart disease,148,-18
+69,male,asymptomatic,142.0,210.0,elevated,ST abnormality,112,angina,1.5,flat,heart disease,151,-39
+56,male,asymptomatic,137.0,282.0,elevated,normal,126,angina,1.2,flat,heart disease,164,-38
+62,male,asymptomatic,139.0,170.0,normal,ST abnormality,120,angina,3.0,flat,heart disease,158,-38
+67,male,asymptomatic,146.0,369.0,normal,normal,110,angina,1.9,flat,heart disease,153,-43
+57,male,asymptomatic,156.0,173.0,normal,LVH,119,angina,3.0,downsloping,heart disease,163,-44
+69,male,asymptomatic,145.0,289.0,elevated,ST abnormality,110,angina,1.8,flat,heart disease,151,-41
+51,male,asymptomatic,131.0,152.0,elevated,LVH,130,angina,1.0,flat,heart disease,169,-39
+48,male,asymptomatic,140.0,208.0,normal,normal,159,angina,1.5,upsloping,heart disease,172,-13
+69,male,asymptomatic,122.0,216.0,elevated,LVH,84,angina,0.0,flat,heart disease,151,-67
+69,male,non-anginal,142.0,271.0,normal,LVH,126,no angina,0.3,upsloping,normal,151,-25
+64,male,asymptomatic,141.0,244.0,elevated,ST abnormality,116,angina,1.5,flat,heart disease,156,-40
+57,male,atypical,180.0,285.0,elevated,ST abnormality,120,no angina,0.8,flat,heart disease,163,-43
+53,male,asymptomatic,124.0,243.0,normal,normal,122,angina,2.0,flat,heart disease,167,-45
+37,male,non-anginal,118.0,240.0,normal,LVH,165,no angina,1.0,flat,normal,183,-18
+67,male,asymptomatic,140.0,219.0,normal,ST abnormality,122,angina,2.0,flat,heart disease,153,-31
+74,male,non-anginal,140.0,237.0,elevated,normal,94,no angina,0.0,flat,heart disease,146,-52
+63,male,atypical,136.0,165.0,normal,ST abnormality,133,no angina,0.2,upsloping,normal,157,-24
+58,male,asymptomatic,100.0,213.0,normal,ST abnormality,110,no angina,0.0,upsloping,normal,162,-52
+61,male,asymptomatic,190.0,287.0,elevated,LVH,150,angina,2.0,downsloping,heart disease,159,-9
+64,male,asymptomatic,130.0,258.0,elevated,LVH,130,no angina,0.0,flat,heart disease,156,-26
+58,male,asymptomatic,160.0,256.0,elevated,LVH,113,angina,1.0,upsloping,heart disease,162,-49
+60,male,asymptomatic,130.0,186.0,elevated,LVH,140,angina,0.5,flat,heart disease,160,-20
+57,male,asymptomatic,122.0,264.0,normal,LVH,100,no angina,0.0,flat,heart disease,163,-63
+55,male,non-anginal,133.0,185.0,normal,ST abnormality,136,no angina,0.2,upsloping,normal,165,-29
+55,male,asymptomatic,120.0,226.0,normal,LVH,127,angina,1.7,downsloping,heart disease,165,-38
+56,male,asymptomatic,130.0,203.0,elevated,normal,98,no angina,1.5,flat,heart disease,164,-66
+57,male,asymptomatic,130.0,207.0,normal,ST abnormality,96,angina,1.0,flat,normal,163,-67
+61,male,non-anginal,140.0,284.0,normal,normal,123,angina,1.3,flat,heart disease,159,-36
+61,male,non-anginal,120.0,337.0,normal,normal,98,angina,0.0,flat,heart disease,159,-61
+74,male,asymptomatic,155.0,310.0,normal,normal,112,angina,1.5,downsloping,heart disease,146,-34
+68,male,non-anginal,134.0,254.0,elevated,normal,151,angina,0.0,upsloping,normal,152,-1
+51,female,asymptomatic,114.0,258.0,elevated,LVH,96,no angina,1.0,upsloping,normal,169,-73
+62,male,asymptomatic,160.0,254.0,elevated,ST abnormality,108,angina,3.0,flat,heart disease,158,-50
+53,male,asymptomatic,144.0,300.0,elevated,ST abnormality,128,angina,1.5,flat,heart disease,167,-39
+62,male,asymptomatic,158.0,170.0,normal,ST abnormality,138,angina,0.0,flat,heart disease,158,-20
+46,male,asymptomatic,134.0,310.0,normal,normal,126,no angina,0.0,flat,heart disease,174,-48
+54,female,asymptomatic,127.0,333.0,elevated,ST abnormality,154,no angina,0.0,flat,heart disease,166,-12
+62,male,typical,135.0,139.0,normal,ST abnormality,137,no angina,0.2,upsloping,normal,158,-21
+55,male,asymptomatic,122.0,223.0,elevated,ST abnormality,100,no angina,0.0,flat,heart disease,165,-65
+58,male,asymptomatic,140.0,385.0,elevated,LVH,135,no angina,0.3,upsloping,normal,162,-27
+62,male,atypical,120.0,254.0,normal,LVH,93,angina,0.0,flat,heart disease,158,-65
+70,male,asymptomatic,130.0,322.0,normal,LVH,109,no angina,2.4,flat,heart disease,150,-41
+67,female,non-anginal,115.0,564.0,normal,LVH,160,no angina,1.6,flat,normal,153,7
+57,male,atypical,124.0,261.0,normal,normal,141,no angina,0.3,upsloping,heart disease,163,-22
+64,male,asymptomatic,128.0,263.0,normal,normal,105,angina,0.2,flat,normal,156,-51
+74,female,atypical,120.0,269.0,normal,LVH,121,angina,0.2,upsloping,normal,146,-25
+65,male,asymptomatic,120.0,177.0,normal,normal,140,no angina,0.4,upsloping,normal,155,-15
+56,male,non-anginal,130.0,256.0,elevated,LVH,142,angina,0.6,flat,heart disease,164,-22
+59,male,asymptomatic,110.0,239.0,normal,LVH,142,angina,1.2,flat,heart disease,161,-19
+60,male,asymptomatic,140.0,293.0,normal,LVH,170,no angina,1.2,flat,heart disease,160,10
+63,female,asymptomatic,150.0,407.0,normal,LVH,154,no angina,4.0,flat,heart disease,157,-3
+59,male,asymptomatic,135.0,234.0,normal,normal,161,no angina,0.5,flat,normal,161,0
+53,male,asymptomatic,142.0,226.0,normal,LVH,111,angina,0.0,upsloping,normal,167,-56
+44,male,non-anginal,140.0,235.0,normal,LVH,180,no angina,0.0,upsloping,normal,176,4
+61,male,typical,134.0,234.0,normal,normal,145,no angina,2.6,flat,heart disease,159,-14
+57,female,asymptomatic,128.0,303.0,normal,LVH,159,no angina,0.0,upsloping,normal,163,-4
+71,female,asymptomatic,112.0,149.0,normal,normal,125,no angina,1.6,flat,normal,149,-24
+46,male,asymptomatic,140.0,311.0,normal,normal,120,angina,1.8,flat,heart disease,174,-54
+53,male,asymptomatic,140.0,203.0,elevated,LVH,155,angina,3.1,downsloping,heart disease,167,-12
+64,male,typical,110.0,211.0,normal,LVH,144,angina,1.8,flat,normal,156,-12
+40,male,typical,140.0,199.0,normal,normal,178,angina,1.4,upsloping,normal,180,-2
+67,male,asymptomatic,120.0,229.0,normal,LVH,129,angina,2.6,flat,heart disease,153,-24
+48,male,atypical,130.0,245.0,normal,LVH,180,no angina,0.2,flat,normal,172,8
+43,male,asymptomatic,115.0,303.0,normal,normal,181,no angina,1.2,flat,normal,177,4
+47,male,asymptomatic,112.0,204.0,normal,normal,143,no angina,0.1,upsloping,normal,173,-30
+54,female,atypical,132.0,288.0,elevated,LVH,159,angina,0.0,upsloping,normal,166,-7
+48,female,non-anginal,130.0,275.0,normal,normal,139,no angina,0.2,upsloping,normal,172,-33
+46,female,asymptomatic,138.0,243.0,normal,LVH,152,angina,0.0,flat,normal,174,-22
+51,female,non-anginal,120.0,295.0,normal,LVH,157,no angina,0.6,upsloping,normal,169,-12
+58,male,non-anginal,112.0,230.0,normal,LVH,165,no angina,2.5,flat,heart disease,162,3
+71,female,non-anginal,110.0,265.0,elevated,LVH,130,no angina,0.0,upsloping,normal,149,-19
+57,male,non-anginal,128.0,229.0,normal,LVH,150,no angina,0.4,flat,heart disease,163,-13
+66,male,asymptomatic,160.0,228.0,normal,LVH,138,no angina,2.3,upsloping,normal,154,-16
+37,female,non-anginal,120.0,215.0,normal,normal,170,no angina,0.0,upsloping,normal,183,-13
+59,male,asymptomatic,170.0,326.0,normal,LVH,140,angina,3.4,downsloping,heart disease,161,-21
+50,male,asymptomatic,144.0,200.0,normal,LVH,126,angina,0.9,flat,heart disease,170,-44
+48,male,asymptomatic,130.0,256.0,elevated,LVH,150,angina,0.0,upsloping,heart disease,172,-22
+61,male,asymptomatic,140.0,207.0,normal,LVH,138,angina,1.9,upsloping,heart disease,159,-21
+59,male,typical,160.0,273.0,normal,LVH,125,no angina,0.0,upsloping,heart disease,161,-36
+42,male,non-anginal,130.0,180.0,normal,normal,150,no angina,0.0,upsloping,normal,178,-28
+48,male,asymptomatic,122.0,222.0,normal,LVH,186,no angina,0.0,upsloping,normal,172,14
+40,male,asymptomatic,152.0,223.0,normal,normal,181,no angina,0.0,upsloping,heart disease,180,1
+62,female,asymptomatic,124.0,209.0,normal,normal,163,no angina,0.0,upsloping,normal,158,5
+44,male,non-anginal,130.0,233.0,normal,normal,179,angina,0.4,upsloping,normal,176,3
+46,male,atypical,101.0,197.0,elevated,normal,156,no angina,0.0,upsloping,normal,174,-18
+59,male,non-anginal,126.0,218.0,elevated,normal,134,no angina,2.2,flat,heart disease,161,-27
+58,male,non-anginal,140.0,211.0,elevated,LVH,165,no angina,0.0,upsloping,normal,162,3
+49,male,non-anginal,118.0,149.0,normal,LVH,126,no angina,0.8,upsloping,heart disease,171,-45
+44,male,asymptomatic,110.0,197.0,normal,LVH,177,no angina,0.0,upsloping,heart disease,176,1
+66,male,atypical,160.0,246.0,normal,normal,120,angina,0.0,flat,heart disease,154,-34
+65,female,asymptomatic,150.0,225.0,normal,LVH,114,no angina,1.0,flat,heart disease,155,-41
+42,male,asymptomatic,136.0,315.0,normal,normal,125,angina,1.8,flat,heart disease,178,-53
+52,male,atypical,128.0,205.0,elevated,normal,184,no angina,0.0,upsloping,normal,168,16
+65,female,non-anginal,140.0,417.0,elevated,LVH,157,no angina,0.8,upsloping,normal,155,2
+63,female,atypical,140.0,195.0,normal,normal,179,no angina,0.0,upsloping,normal,157,22
+45,female,atypical,130.0,234.0,normal,LVH,175,no angina,0.6,flat,normal,175,0
+41,female,atypical,105.0,198.0,normal,normal,168,no angina,0.0,upsloping,normal,179,-11
+61,male,asymptomatic,138.0,166.0,normal,LVH,125,angina,3.6,flat,heart disease,159,-34
+60,female,non-anginal,120.0,178.0,elevated,normal,96,no angina,0.0,upsloping,normal,160,-64
+59,female,asymptomatic,174.0,249.0,normal,normal,143,angina,0.0,flat,heart disease,161,-18
+62,male,atypical,120.0,281.0,normal,LVH,103,no angina,1.4,flat,heart disease,158,-55
+57,male,non-anginal,150.0,126.0,elevated,normal,173,no angina,0.2,upsloping,normal,163,10
+51,female,asymptomatic,130.0,305.0,normal,normal,142,angina,1.2,flat,heart disease,169,-27
+44,male,non-anginal,120.0,226.0,normal,normal,169,no angina,0.0,upsloping,normal,176,-7
+60,female,typical,150.0,240.0,normal,normal,171,no angina,0.9,upsloping,normal,160,11
+63,male,typical,145.0,233.0,elevated,LVH,150,no angina,2.3,downsloping,normal,157,-7
+57,male,asymptomatic,150.0,276.0,normal,LVH,112,angina,0.6,flat,heart disease,163,-51
+51,male,asymptomatic,140.0,261.0,normal,LVH,186,angina,0.0,upsloping,normal,169,17
+58,female,atypical,136.0,319.0,elevated,LVH,152,no angina,0.0,upsloping,heart disease,162,-10
+44,female,non-anginal,118.0,242.0,normal,normal,149,no angina,0.3,flat,normal,176,-27
+47,male,non-anginal,108.0,243.0,normal,normal,152,no angina,0.0,upsloping,heart disease,173,-21
+61,male,asymptomatic,120.0,260.0,normal,normal,140,angina,3.6,flat,heart disease,159,-19
+57,female,asymptomatic,120.0,354.0,normal,normal,163,angina,0.6,upsloping,normal,163,0
+70,male,atypical,156.0,245.0,normal,LVH,143,no angina,0.0,upsloping,normal,150,-7
+76,female,non-anginal,140.0,197.0,normal,ST abnormality,116,no angina,1.1,flat,normal,144,-28
+67,female,asymptomatic,106.0,223.0,normal,normal,142,no angina,0.3,upsloping,normal,153,-11
+45,male,asymptomatic,142.0,309.0,normal,LVH,147,angina,0.0,flat,heart disease,175,-28
+45,male,asymptomatic,104.0,208.0,normal,LVH,148,angina,3.0,flat,normal,175,-27
+39,female,non-anginal,94.0,199.0,normal,normal,179,no angina,0.0,upsloping,normal,181,-2
+42,female,non-anginal,120.0,209.0,normal,normal,173,no angina,0.0,flat,normal,178,-5
+56,male,atypical,120.0,236.0,normal,normal,178,no angina,0.8,upsloping,normal,164,14
+58,male,asymptomatic,146.0,218.0,normal,normal,105,no angina,2.0,flat,heart disease,162,-57
+35,male,asymptomatic,120.0,198.0,normal,normal,130,angina,1.6,flat,heart disease,185,-55
+58,male,asymptomatic,150.0,270.0,normal,LVH,111,angina,0.8,upsloping,heart disease,162,-51
+41,male,non-anginal,130.0,214.0,normal,LVH,168,no angina,2.0,flat,normal,179,-11
+57,male,asymptomatic,110.0,201.0,normal,normal,126,angina,1.5,flat,normal,163,-37
+42,male,typical,148.0,244.0,normal,LVH,178,no angina,0.8,upsloping,normal,178,0
+62,male,atypical,128.0,208.0,elevated,LVH,140,no angina,0.0,upsloping,normal,158,-18
+59,male,typical,178.0,270.0,normal,LVH,145,no angina,4.2,downsloping,normal,161,-16
+41,female,atypical,126.0,306.0,normal,normal,163,no angina,0.0,upsloping,normal,179,-16
+50,male,asymptomatic,150.0,243.0,normal,LVH,128,no angina,2.6,flat,heart disease,170,-42
+59,male,atypical,140.0,221.0,normal,normal,164,angina,0.0,upsloping,normal,161,3
+61,female,asymptomatic,130.0,330.0,normal,LVH,169,no angina,0.0,upsloping,heart disease,159,10
+54,male,asymptomatic,124.0,266.0,normal,LVH,109,angina,2.2,flat,heart disease,166,-57
+54,male,asymptomatic,110.0,206.0,normal,LVH,108,angina,0.0,flat,heart disease,166,-58
+52,male,asymptomatic,125.0,212.0,normal,normal,168,no angina,1.0,upsloping,heart disease,168,0
+47,male,asymptomatic,110.0,275.0,normal,LVH,118,angina,1.0,flat,heart disease,173,-55
+66,male,asymptomatic,120.0,302.0,normal,LVH,151,no angina,0.4,flat,normal,154,-3
+58,male,asymptomatic,100.0,234.0,normal,normal,156,no angina,0.1,upsloping,heart disease,162,-6
+64,female,non-anginal,140.0,313.0,normal,normal,133,no angina,0.2,upsloping,normal,156,-23
+50,female,atypical,120.0,244.0,normal,normal,162,no angina,1.1,upsloping,normal,170,-8
+44,female,non-anginal,108.0,141.0,normal,normal,175,no angina,0.6,flat,normal,176,-1
+67,male,asymptomatic,120.0,237.0,normal,normal,71,no angina,1.0,flat,heart disease,153,-82
+49,female,asymptomatic,130.0,269.0,normal,normal,163,no angina,0.0,upsloping,normal,171,-8
+57,male,asymptomatic,165.0,289.0,elevated,LVH,124,no angina,1.0,flat,heart disease,163,-39
+63,male,asymptomatic,130.0,254.0,normal,LVH,147,no angina,1.4,flat,heart disease,157,-10
+48,male,asymptomatic,124.0,274.0,normal,LVH,166,no angina,0.5,flat,heart disease,172,-6
+51,male,non-anginal,100.0,222.0,normal,normal,143,angina,1.2,flat,normal,169,-26
+60,female,asymptomatic,150.0,258.0,normal,LVH,157,no angina,2.6,flat,heart disease,160,-3
+59,male,asymptomatic,140.0,177.0,normal,normal,162,angina,0.0,upsloping,heart disease,161,1
+45,female,atypical,112.0,160.0,normal,normal,138,no angina,0.0,flat,normal,175,-37
+55,female,asymptomatic,180.0,327.0,normal,ST abnormality,117,angina,3.4,flat,heart disease,165,-48
+41,male,atypical,110.0,235.0,normal,normal,153,no angina,0.0,upsloping,normal,179,-26
+60,female,asymptomatic,158.0,305.0,normal,LVH,161,no angina,0.0,upsloping,heart disease,160,1
+54,female,non-anginal,135.0,304.0,elevated,normal,170,no angina,0.0,upsloping,normal,166,4
+42,male,atypical,120.0,295.0,normal,normal,162,no angina,0.0,upsloping,normal,178,-16
+49,female,atypical,134.0,271.0,normal,normal,162,no angina,0.0,flat,normal,171,-9
+46,male,asymptomatic,120.0,249.0,normal,LVH,144,no angina,0.8,upsloping,heart disease,174,-30
+56,female,asymptomatic,200.0,288.0,elevated,LVH,133,angina,4.0,downsloping,heart disease,164,-31
+66,female,typical,150.0,226.0,normal,normal,114,no angina,2.6,downsloping,normal,154,-40
+56,male,asymptomatic,130.0,283.0,elevated,LVH,103,angina,1.6,downsloping,heart disease,164,-61
+49,male,non-anginal,120.0,188.0,normal,normal,139,no angina,2.0,flat,heart disease,171,-32
+54,male,asymptomatic,122.0,286.0,normal,LVH,116,angina,3.2,flat,heart disease,166,-50
+57,male,asymptomatic,152.0,274.0,normal,normal,88,angina,1.2,flat,heart disease,163,-75
+65,female,non-anginal,160.0,360.0,normal,LVH,151,no angina,0.8,upsloping,normal,155,-4
+54,male,non-anginal,125.0,273.0,normal,LVH,152,no angina,0.5,downsloping,normal,166,-14
+54,female,non-anginal,160.0,201.0,normal,normal,163,no angina,0.0,upsloping,normal,166,-3
+62,male,asymptomatic,120.0,267.0,normal,normal,99,angina,1.8,flat,heart disease,158,-59
+52,female,non-anginal,136.0,196.0,normal,LVH,169,no angina,0.1,flat,normal,168,1
+52,male,atypical,134.0,201.0,normal,normal,158,no angina,0.8,upsloping,normal,168,-10
+60,male,asymptomatic,117.0,230.0,elevated,normal,160,angina,1.4,upsloping,heart disease,160,0
+63,female,asymptomatic,108.0,269.0,normal,normal,169,angina,1.8,flat,heart disease,157,12
+66,male,asymptomatic,112.0,212.0,normal,LVH,132,angina,0.1,upsloping,heart disease,154,-22
+42,male,asymptomatic,140.0,226.0,normal,normal,178,no angina,0.0,upsloping,normal,178,0
+64,male,asymptomatic,120.0,246.0,normal,LVH,96,angina,2.2,downsloping,heart disease,156,-60
+54,male,non-anginal,150.0,232.0,normal,LVH,165,no angina,1.6,upsloping,normal,166,-1
+46,female,non-anginal,142.0,177.0,normal,LVH,160,angina,1.4,downsloping,normal,174,-14
+67,female,non-anginal,152.0,277.0,normal,normal,172,no angina,0.0,upsloping,normal,153,19
+56,male,asymptomatic,125.0,249.0,elevated,LVH,144,angina,1.2,flat,heart disease,164,-20
+34,female,atypical,118.0,210.0,normal,normal,192,no angina,0.7,upsloping,normal,186,6
+57,male,asymptomatic,132.0,207.0,normal,normal,168,angina,0.0,upsloping,normal,163,5
+64,male,asymptomatic,145.0,212.0,normal,LVH,132,no angina,2.0,flat,heart disease,156,-24
+59,male,asymptomatic,138.0,271.0,normal,LVH,182,no angina,0.0,upsloping,normal,161,21
+50,male,non-anginal,140.0,233.0,normal,normal,163,no angina,0.6,flat,heart disease,170,-7
+51,male,typical,125.0,213.0,normal,LVH,125,angina,1.4,upsloping,normal,169,-44
+54,male,atypical,192.0,283.0,normal,LVH,195,no angina,0.0,upsloping,heart disease,166,29
+53,male,asymptomatic,123.0,282.0,normal,normal,95,angina,2.0,flat,heart disease,167,-72
+52,male,asymptomatic,112.0,230.0,normal,normal,160,no angina,0.0,upsloping,heart disease,168,-8
+40,male,asymptomatic,110.0,167.0,normal,LVH,114,angina,2.0,flat,heart disease,180,-66
+58,male,non-anginal,132.0,224.0,normal,LVH,173,no angina,3.2,upsloping,heart disease,162,11
+41,female,non-anginal,112.0,268.0,normal,LVH,172,angina,0.0,upsloping,normal,179,-7
+41,male,non-anginal,112.0,250.0,normal,normal,179,no angina,0.0,upsloping,normal,179,0
+50,female,non-anginal,120.0,219.0,normal,normal,158,no angina,1.6,flat,normal,170,-12
+54,female,non-anginal,108.0,267.0,normal,LVH,167,no angina,0.0,upsloping,normal,166,1
+64,female,asymptomatic,130.0,303.0,normal,normal,122,no angina,2.0,flat,normal,156,-34
+51,female,non-anginal,130.0,256.0,normal,LVH,149,no angina,0.5,upsloping,normal,169,-20
+46,female,atypical,105.0,204.0,normal,normal,172,no angina,0.0,upsloping,normal,174,-2
+55,male,asymptomatic,140.0,217.0,normal,normal,111,angina,5.6,downsloping,heart disease,165,-54
+45,male,atypical,128.0,308.0,normal,LVH,170,no angina,0.0,upsloping,normal,175,-5
+56,male,typical,120.0,193.0,normal,LVH,162,no angina,1.9,flat,normal,164,-2
+66,female,asymptomatic,178.0,228.0,elevated,normal,165,angina,1.0,flat,heart disease,154,11
+38,male,typical,120.0,231.0,normal,normal,182,angina,3.8,flat,heart disease,182,0
+62,female,asymptomatic,150.0,244.0,normal,normal,154,angina,1.4,flat,heart disease,158,-4
+55,male,atypical,130.0,262.0,normal,normal,155,no angina,0.0,upsloping,normal,165,-10
+58,male,asymptomatic,128.0,259.0,normal,LVH,130,angina,3.0,flat,heart disease,162,-32
+43,male,asymptomatic,110.0,211.0,normal,normal,161,no angina,0.0,upsloping,normal,177,-16
+64,female,asymptomatic,180.0,325.0,normal,normal,154,angina,0.0,upsloping,normal,156,-2
+50,female,asymptomatic,110.0,254.0,normal,LVH,159,no angina,0.0,upsloping,normal,170,-11
+53,male,non-anginal,130.0,197.0,elevated,LVH,152,no angina,1.2,downsloping,normal,167,-15
+45,female,asymptomatic,138.0,236.0,normal,LVH,152,angina,0.2,flat,normal,175,-23
+65,male,typical,138.0,282.0,elevated,LVH,174,no angina,1.4,flat,heart disease,155,19
+69,male,typical,160.0,234.0,elevated,LVH,131,no angina,0.1,flat,normal,151,-20
+69,male,non-anginal,140.0,254.0,normal,LVH,146,no angina,2.0,flat,heart disease,151,-5
+67,male,asymptomatic,100.0,299.0,normal,LVH,125,angina,0.9,flat,heart disease,153,-28
+68,female,non-anginal,120.0,211.0,normal,LVH,115,no angina,1.5,flat,normal,152,-37
+34,male,typical,118.0,182.0,normal,LVH,174,no angina,0.0,upsloping,normal,186,-12
+62,female,asymptomatic,138.0,294.0,elevated,normal,106,no angina,1.9,flat,heart disease,158,-52
+51,male,asymptomatic,140.0,298.0,normal,normal,122,angina,4.2,flat,heart disease,169,-47
+46,male,non-anginal,150.0,231.0,normal,normal,147,no angina,3.6,flat,heart disease,174,-27
+67,male,asymptomatic,125.0,254.0,elevated,normal,163,no angina,0.2,flat,heart disease,153,10
+50,male,non-anginal,129.0,196.0,normal,normal,163,no angina,0.0,upsloping,normal,170,-7
+42,male,non-anginal,120.0,240.0,elevated,normal,194,no angina,0.8,downsloping,normal,178,16
+56,female,asymptomatic,134.0,409.0,normal,LVH,150,angina,1.9,flat,heart disease,164,-14
+41,male,asymptomatic,110.0,172.0,normal,LVH,158,no angina,0.0,upsloping,heart disease,179,-21
+42,female,asymptomatic,102.0,265.0,normal,LVH,122,no angina,0.6,flat,normal,178,-56
+53,male,non-anginal,130.0,246.0,elevated,LVH,173,no angina,0.0,upsloping,normal,167,6
+43,male,non-anginal,130.0,315.0,normal,normal,162,no angina,1.9,upsloping,normal,177,-15
+56,male,asymptomatic,132.0,184.0,normal,LVH,105,angina,2.1,flat,heart disease,164,-59
+52,male,asymptomatic,108.0,233.0,elevated,normal,147,no angina,0.1,upsloping,normal,168,-21
+62,female,asymptomatic,140.0,394.0,normal,LVH,157,no angina,1.2,flat,normal,158,-1
+70,male,non-anginal,160.0,269.0,normal,normal,112,angina,2.9,flat,heart disease,150,-38
+54,male,asymptomatic,140.0,239.0,normal,normal,160,no angina,1.2,upsloping,normal,166,-6
+70,male,asymptomatic,145.0,174.0,normal,normal,125,angina,2.6,downsloping,heart disease,150,-25
+54,male,atypical,108.0,309.0,normal,normal,156,no angina,0.0,upsloping,normal,166,-10
+35,male,asymptomatic,126.0,282.0,normal,LVH,156,angina,0.0,upsloping,heart disease,185,-29
+48,male,non-anginal,124.0,255.0,elevated,normal,175,no angina,0.0,upsloping,normal,172,3
+55,female,atypical,135.0,250.0,normal,LVH,161,no angina,1.4,flat,normal,165,-4
+58,female,asymptomatic,100.0,248.0,normal,LVH,122,no angina,1.0,flat,normal,162,-40
+54,female,non-anginal,110.0,214.0,normal,normal,158,no angina,1.6,flat,normal,166,-8
+69,female,typical,140.0,239.0,normal,normal,151,no angina,1.8,upsloping,normal,151,0
+77,male,asymptomatic,125.0,304.0,normal,LVH,162,angina,0.0,upsloping,heart disease,143,19
+68,male,non-anginal,118.0,277.0,normal,normal,151,no angina,1.0,upsloping,normal,152,-1
+58,male,asymptomatic,125.0,300.0,normal,LVH,171,no angina,0.0,upsloping,heart disease,162,9
+60,male,asymptomatic,125.0,258.0,normal,LVH,141,angina,2.8,flat,heart disease,160,-19
+51,male,asymptomatic,140.0,299.0,normal,normal,173,angina,1.6,upsloping,heart disease,169,4
+55,male,asymptomatic,160.0,289.0,normal,LVH,145,angina,0.8,flat,heart disease,165,-20
+52,male,typical,152.0,298.0,elevated,normal,178,no angina,1.2,flat,normal,168,10
+60,female,non-anginal,102.0,318.0,normal,normal,160,no angina,0.0,upsloping,normal,160,0
+58,male,non-anginal,105.0,240.0,normal,LVH,154,angina,0.6,flat,normal,162,-8
+64,male,non-anginal,125.0,309.0,normal,normal,131,angina,1.8,flat,heart disease,156,-25
+37,male,non-anginal,130.0,250.0,normal,normal,187,no angina,3.5,downsloping,normal,183,4
+59,male,typical,170.0,288.0,normal,LVH,159,no angina,0.2,flat,heart disease,161,-2
+51,male,non-anginal,125.0,245.0,elevated,LVH,166,no angina,2.4,flat,normal,169,-3
+43,female,non-anginal,122.0,213.0,normal,normal,165,no angina,0.2,flat,normal,177,-12
+58,male,asymptomatic,128.0,216.0,normal,LVH,131,angina,2.2,flat,heart disease,162,-31
+29,male,atypical,130.0,204.0,normal,LVH,202,no angina,0.0,upsloping,normal,191,11
+41,female,atypical,130.0,204.0,normal,LVH,172,no angina,1.4,upsloping,normal,179,-7
+63,female,non-anginal,135.0,252.0,normal,LVH,172,no angina,0.0,upsloping,normal,157,15
+51,male,non-anginal,94.0,227.0,normal,normal,154,angina,0.0,upsloping,normal,169,-15
+54,male,non-anginal,120.0,258.0,normal,LVH,147,no angina,0.4,flat,normal,166,-19
+44,male,atypical,120.0,220.0,normal,normal,170,no angina,0.0,upsloping,normal,176,-6
+54,male,asymptomatic,110.0,239.0,normal,normal,126,angina,2.8,flat,heart disease,166,-40
+65,male,asymptomatic,135.0,254.0,normal,LVH,127,no angina,2.8,flat,heart disease,155,-28
+57,male,non-anginal,150.0,168.0,normal,normal,174,no angina,1.6,upsloping,normal,163,11
+63,male,asymptomatic,130.0,330.0,elevated,LVH,132,angina,1.8,upsloping,heart disease,157,-25
+35,female,asymptomatic,138.0,183.0,normal,normal,182,no angina,1.4,upsloping,normal,185,-3
+41,male,atypical,135.0,203.0,normal,normal,132,no angina,0.0,flat,normal,179,-47
+62,female,non-anginal,130.0,263.0,normal,normal,97,no angina,1.2,flat,heart disease,158,-61
+43,female,asymptomatic,132.0,341.0,elevated,LVH,136,angina,3.0,flat,heart disease,177,-41
+58,female,typical,150.0,283.0,elevated,LVH,162,no angina,1.0,upsloping,normal,162,0
+52,male,typical,118.0,186.0,normal,LVH,190,no angina,0.0,flat,normal,168,22
+61,female,asymptomatic,145.0,307.0,normal,LVH,146,angina,1.0,flat,heart disease,159,-13
+39,male,asymptomatic,118.0,219.0,normal,normal,140,no angina,1.2,flat,heart disease,181,-41
+45,male,asymptomatic,115.0,260.0,normal,LVH,185,no angina,0.0,upsloping,normal,175,10
+52,male,asymptomatic,128.0,255.0,normal,normal,161,angina,0.0,upsloping,heart disease,168,-7
+62,male,non-anginal,130.0,231.0,normal,normal,146,no angina,1.8,flat,normal,158,-12
+62,female,asymptomatic,160.0,164.0,normal,LVH,145,no angina,6.2,downsloping,heart disease,158,-13
+53,female,asymptomatic,138.0,234.0,normal,LVH,160,no angina,0.0,upsloping,normal,167,-7
+43,male,asymptomatic,120.0,177.0,normal,LVH,120,angina,2.5,flat,heart disease,177,-57
+47,male,non-anginal,138.0,257.0,normal,LVH,156,no angina,0.0,upsloping,normal,173,-17
+52,male,atypical,120.0,325.0,normal,normal,172,no angina,0.2,upsloping,normal,168,4
+68,male,non-anginal,180.0,274.0,elevated,LVH,150,angina,1.6,flat,heart disease,152,-2
+39,male,non-anginal,140.0,321.0,normal,LVH,182,no angina,0.0,upsloping,normal,181,1
+53,female,asymptomatic,130.0,264.0,normal,LVH,143,no angina,0.4,flat,normal,167,-24
+62,female,asymptomatic,140.0,268.0,normal,LVH,160,no angina,3.6,downsloping,heart disease,158,2
+51,female,non-anginal,140.0,308.0,normal,LVH,142,no angina,1.5,upsloping,normal,169,-27
+60,male,asymptomatic,130.0,253.0,normal,normal,144,angina,1.4,upsloping,heart disease,160,-16
+65,male,asymptomatic,110.0,248.0,normal,LVH,158,no angina,0.6,upsloping,heart disease,155,3
+65,female,non-anginal,155.0,269.0,normal,normal,148,no angina,0.8,upsloping,normal,155,-7
+60,male,non-anginal,140.0,185.0,normal,LVH,155,no angina,3.0,flat,heart disease,160,-5
+60,male,asymptomatic,145.0,282.0,normal,LVH,142,angina,2.8,flat,heart disease,160,-18
+54,male,asymptomatic,120.0,188.0,normal,normal,113,no angina,1.4,flat,heart disease,166,-53
+44,male,atypical,130.0,219.0,normal,LVH,188,no angina,0.0,upsloping,normal,176,12
+44,male,asymptomatic,112.0,290.0,normal,LVH,153,no angina,0.0,upsloping,heart disease,176,-23
+51,male,non-anginal,110.0,175.0,normal,normal,123,no angina,0.6,upsloping,normal,169,-46
+59,male,non-anginal,150.0,212.0,elevated,normal,157,no angina,1.6,upsloping,normal,161,-4
+71,female,atypical,160.0,302.0,normal,normal,162,no angina,0.4,upsloping,normal,149,13
+61,male,non-anginal,150.0,243.0,elevated,normal,137,angina,1.0,flat,normal,159,-22
+55,male,asymptomatic,132.0,353.0,normal,normal,132,angina,1.2,flat,heart disease,165,-33
+64,male,non-anginal,140.0,335.0,normal,normal,158,no angina,0.0,upsloping,heart disease,156,2
+43,male,asymptomatic,150.0,247.0,normal,normal,171,no angina,1.5,upsloping,normal,177,-6
+58,female,non-anginal,120.0,340.0,normal,normal,172,no angina,0.0,upsloping,normal,162,10
+60,male,asymptomatic,130.0,206.0,normal,LVH,132,angina,2.4,flat,heart disease,160,-28
+58,male,atypical,120.0,284.0,normal,LVH,160,no angina,1.8,flat,heart disease,162,-2
+49,male,atypical,130.0,266.0,normal,normal,171,no angina,0.6,upsloping,normal,171,0
+48,male,atypical,110.0,229.0,normal,normal,168,no angina,1.0,downsloping,heart disease,172,-4
+52,male,non-anginal,172.0,199.0,elevated,normal,162,no angina,0.5,upsloping,normal,168,-6
+44,male,atypical,120.0,263.0,normal,normal,173,no angina,0.0,upsloping,normal,176,-3
+56,female,atypical,140.0,294.0,normal,LVH,153,no angina,1.3,flat,normal,164,-11
+57,male,asymptomatic,140.0,192.0,normal,normal,148,no angina,0.4,flat,normal,163,-15
+67,male,asymptomatic,160.0,286.0,normal,LVH,108,angina,1.5,flat,heart disease,153,-45
+53,female,non-anginal,128.0,216.0,normal,LVH,115,no angina,0.0,upsloping,normal,167,-52
+52,male,non-anginal,138.0,223.0,normal,normal,169,no angina,0.0,upsloping,normal,168,1
+43,male,asymptomatic,132.0,247.0,elevated,LVH,143,angina,0.1,flat,heart disease,177,-34
+52,male,asymptomatic,128.0,204.0,elevated,normal,156,angina,1.0,flat,heart disease,168,-12
+59,male,typical,134.0,204.0,normal,normal,162,no angina,0.8,upsloping,heart disease,161,1
+64,male,typical,170.0,227.0,normal,LVH,155,no angina,0.6,flat,normal,156,-1
+66,female,non-anginal,146.0,278.0,normal,LVH,152,no angina,0.0,flat,normal,154,-2
+39,female,non-anginal,138.0,220.0,normal,normal,152,no angina,0.0,flat,normal,181,-29
+57,male,atypical,154.0,232.0,normal,LVH,164,no angina,0.0,upsloping,heart disease,163,1
+58,female,asymptomatic,130.0,197.0,normal,normal,131,no angina,0.6,flat,normal,162,-31
+57,male,asymptomatic,110.0,335.0,normal,normal,143,angina,3.0,flat,heart disease,163,-20
+47,male,non-anginal,130.0,253.0,normal,normal,179,no angina,0.0,upsloping,normal,173,6
+55,female,asymptomatic,128.0,205.0,normal,ST abnormality,130,angina,2.0,flat,heart disease,165,-35
+35,male,atypical,122.0,192.0,normal,normal,174,no angina,0.0,upsloping,normal,185,-11
+61,male,asymptomatic,148.0,203.0,normal,normal,161,no angina,0.0,upsloping,heart disease,159,2
+58,male,asymptomatic,114.0,318.0,normal,ST abnormality,140,no angina,4.4,downsloping,heart disease,162,-22
+58,female,asymptomatic,170.0,225.0,elevated,LVH,146,angina,2.8,flat,heart disease,162,-16
+58,male,atypical,125.0,220.0,normal,normal,144,no angina,0.4,flat,normal,162,-18
+56,male,atypical,130.0,221.0,normal,LVH,163,no angina,0.0,upsloping,normal,164,-1
+56,male,atypical,120.0,240.0,normal,normal,169,no angina,0.0,downsloping,normal,164,5
+67,male,non-anginal,152.0,212.0,normal,LVH,150,no angina,0.8,flat,heart disease,153,-3
+55,female,atypical,132.0,342.0,normal,normal,166,no angina,1.2,upsloping,normal,165,1
+44,male,asymptomatic,120.0,169.0,normal,normal,144,angina,2.8,downsloping,heart disease,176,-32
+63,male,asymptomatic,140.0,187.0,normal,LVH,144,angina,4.0,upsloping,heart disease,157,-13
+63,female,asymptomatic,124.0,197.0,normal,normal,136,angina,0.0,flat,heart disease,157,-21
+41,male,atypical,120.0,157.0,normal,normal,182,no angina,0.0,upsloping,normal,179,3
+59,male,asymptomatic,164.0,176.0,elevated,LVH,90,no angina,1.0,flat,heart disease,161,-71
+57,female,asymptomatic,140.0,241.0,normal,normal,123,angina,0.2,flat,heart disease,163,-40
+45,male,typical,110.0,264.0,normal,normal,132,no angina,1.2,flat,heart disease,175,-43
+68,male,asymptomatic,144.0,193.0,elevated,normal,141,no angina,3.4,flat,heart disease,152,-11
+57,male,asymptomatic,130.0,131.0,normal,normal,115,angina,1.2,flat,heart disease,163,-48
+57,female,atypical,130.0,236.0,normal,LVH,174,no angina,0.0,flat,heart disease,163,11
+38,male,non-anginal,138.0,175.0,normal,normal,173,no angina,0.0,upsloping,normal,182,-9
